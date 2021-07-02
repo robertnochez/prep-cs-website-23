@@ -9,16 +9,16 @@ import QuoteBlock from "./../components/QuoteBlock";
 import LoginModal from "../components/LoginModal";
 import Loading from "../components/Loading";
 
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 
 import { Header, Segment, Grid, Icon } from "semantic-ui-react";
 
 function MainLandingPage(props) {
-  const { isLoading } = useAuth0();
+  // const { isLoading } = useAuth0();
 
-  if (isLoading) {
-    return <Loading />;
-  }
+  // if (isLoading) {
+  //   return <Loading />;
+  // }
 
   return (
     <div>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 
 import { v4 as uuidv4 } from "uuid";
 import { withAuth0 } from "@auth0/auth0-react";
@@ -97,24 +96,24 @@ class LoginModal extends Component {
       "Content-Type": "application/json",
     };
 
-    axios
-      .post(
-        "/api/users",
-        {
-          firstName: this.state.submittedFirstName,
-          lastName: this.state.submittedLastName,
-          userName: this.state.submittedUserName,
-          email: this.state.submittedEmail,
-          identity: this.state.submittedIdentity,
-        },
-        {
-          headers: newHeaders,
-        }
-      )
-      .then((response) => console.log(response))
-      .catch((error) => {
-        console.log("There was an error!", error);
-      });
+    // axios
+    //   .post(
+    //     "/api/users",
+    //     {
+    //       firstName: this.state.submittedFirstName,
+    //       lastName: this.state.submittedLastName,
+    //       userName: this.state.submittedUserName,
+    //       email: this.state.submittedEmail,
+    //       identity: this.state.submittedIdentity,
+    //     },
+    //     {
+    //       headers: newHeaders,
+    //     }
+    //   )
+    //   .then((response) => console.log(response))
+    //   .catch((error) => {
+    //     console.log("There was an error!", error);
+    //   });
   };
 
   // TODO handRedirect has to go within render() so that redirects work.
