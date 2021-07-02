@@ -1,0 +1,61 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@headerFont        : 'IBM Plex Sans', sans-serif;
+@pageFont          : 'Inter', sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts : true;
+@googleFontName    : 'Inter';
+@googleFontSizes   : '200,300,400,700,400italic,700italic';
+@googleFontFamily  : '@{googleFontName}:@{googleFontSizes}';
+
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+@emSize            : 16px;
+@fontSize          : 14px;
+@headerFontWeight  : 400; /* idk about this one */
+
+
+/*-------------------
+    Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@blue             : #023A70; /* 022B70 and 021D70 are also valid */
+@green            : #026670;
+@orange           : #FCE181;
+@pink             : #B3A3A0; /* this is dark grey --> pink is #D9499A */
+@purple           : #700C02;
+@red              : #ED1904;
+@teal             : #9FEDD7; 
+@yellow           : #FEF9C7;
+
+@black            : #000000;
+@grey             : #EDEAE5;
+@white            : #F6F6F6;
+
+/*---  Brand Colors  ---*/
+@primaryColor        : @green;
+@secondaryColor      : @blue;
+
+
+/*--------------
+      Page
+---------------*/
+
+@pageBackground      : @white;
+@lineHeight          : 1.5;
+@textColor           : @black; /* #212121 */
+
+
+@primaryColor: #FFD700;
+@secondaryColor: #FF1493;
