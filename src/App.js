@@ -5,6 +5,7 @@ import WMCodeInfo from "./pages/WMCodeInfo";
 import PREPCSInfo from "./pages/PREPCSInfo";
 import SampleLesson from "./pages/SampleLesson";
 import Contact from "./pages/Contact";
+import Practice from "./pages/Practice"
 
 import LoginModal from "./components/LoginModal";
 import UserInfoModal from "./components/UserInfoModal";
@@ -61,6 +62,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/practice">
+          <Practice />
         </Route>
 
         {/* Route to User Info Page, after redirect from authenitication */}

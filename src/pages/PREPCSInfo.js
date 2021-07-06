@@ -28,8 +28,10 @@ function PREPCSInfo(props) {
 
       <TitleAndImageBlock
         background={true}
-        firstTitle="Title"
+        firstTitle="Math 53 sucks"
         firstDescription="Description"
+        secondTitle="Cris is Cool :)"
+        secondDescription="Math is stupid!!!"
         media={<Segment placeholder>PlaceHolder Image</Segment>}
       />
 
