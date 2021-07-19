@@ -1,0 +1,30 @@
+[
+  {
+    "lessonNumber": "1",
+    "topic": "Hello World",
+    "folderLocation": "Over Yonder",
+    "folderName": "hello.world",
+    "additionalInfo": ""
+  },
+  {
+    "lessonNumber": "2",
+    "topic": "Another thing",
+    "folderLocation": "not here",
+    "folderName": "its late",
+    "additionalInfo": "none"
+  },
+  {
+    "lessonNumber": "3",
+    "topic": "printing",
+    "folderLocation": "up there",
+    "folderName": "go get it",
+    "additionalInfo": "hello there"
+  },
+  {
+    "lessonNumber": "7",
+    "topic": "9",
+    "folderLocation": "8982",
+    "folderName": "9834",
+    "additionalInfo": "9834"
+  }
+]

@@ -1,10 +1,11 @@
 import React from "react";
 import "../../App.css";
 
+import Calendar from "../../components/Calendar";
+import calendarData from "./calendarData.json";
+
 import NavBar from "../../components/NavBar";
 import HomeImage from "../../images/PREPHome.png";
-
-import {} from "semantic-ui-react";
 
 function PREPHome(props) {
   return (
@@ -16,6 +17,12 @@ function PREPHome(props) {
         LearningPlatform is happy to take this opportunity to 
         introduce you to UC Berkeley Computer Science."
       />
+
+      <br />
+      <br />
+      <br />
+
+      <Calendar data={calendarData} />
     </div>
   );
 }

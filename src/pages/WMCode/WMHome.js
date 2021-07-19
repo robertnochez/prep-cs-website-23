@@ -1,10 +1,11 @@
 import React from "react";
 import "../../App.css";
 
+import Calendar from "../../components/Calendar";
+import calendarData from "./calendarData.json";
+
 import NavBar from "../../components/NavBar";
 import WMCode1 from "../../images/WMCode1.png";
-
-import {} from "semantic-ui-react";
 
 function WMHome(props) {
   return (
@@ -16,6 +17,12 @@ function WMHome(props) {
         LearningPlatform is happy to take this opportunity to 
         show you the beauty of computer science."
       />
+
+      <br />
+      <br />
+      <br />
+
+      <Calendar data={calendarData} />
     </div>
   );
 }
