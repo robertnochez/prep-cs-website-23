@@ -12,6 +12,9 @@ import WMHome from "./pages/WMCode/WMHome";
 import PREPHome from "./pages/PREP/PREPHome";
 import VisitorHome from "./pages/Visitor/VisitorHome";
 
+import WMCodeLesson1 from "./pages/WMCode/Lesson1";
+import WMCodeLesson2 from "./pages/WMCode/Lesson2";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "semantic-ui-less/semantic.less";
@@ -79,6 +82,22 @@ function App() {
         <Route path="/visitor">
           <VisitorHome />
         </Route>
+
+        {/* Paths for WMCode Lesson Pages */}
+        <Route path="/wmcode-lesson1">
+          <WMCodeLesson1 />
+        </Route>
+        <Route path="/wmcode-lesson2">
+          <WMCodeLesson2 />
+        </Route>
+        {/* 
+            TODO: Jesus
+         */}
+
+        {/* Paths for PREP CS Lesson Pages */}
+        {/* 
+            TODO: Cris
+         */}
       </Switch>
     </Router>
   );

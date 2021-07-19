@@ -1,29 +1,33 @@
 [
   {
     "lessonNumber": "1",
-    "topic": "Hello World",
-    "folderLocation": "Over Yonder",
-    "folderName": "hello.world",
-    "additionalInfo": ""
+    "path": "/prepcs-lesson1",
+    "topic": "Welcome to PREP!",
+    "folderLocation": "./prepDownloads/sample.zip",
+    "folderName": "lesson1",
+    "additionalInfo": "FOR CRIS: Use This Object as a Sample of What It Should Look Like ... This is in /pages/PREP/calendarData.json"
   },
   {
     "lessonNumber": "2",
-    "topic": "Another thing",
-    "folderLocation": "not here",
+    "path": "/prepcs-lesson2",
+    "topic": "Create Files and Link the Files Together in App.js",
+    "folderLocation": "./prepDownloads/*******",
     "folderName": "its late",
     "additionalInfo": "none"
   },
   {
     "lessonNumber": "3",
+    "path": "/prepcs-lesson3",
     "topic": "printing",
-    "folderLocation": "up there",
+    "folderLocation": "./prepDownloads/*******",
     "folderName": "go get it",
     "additionalInfo": "hello there"
   },
   {
     "lessonNumber": "7",
+    "path": "/prepcs-lesson4",
     "topic": "9",
-    "folderLocation": "8982",
+    "folderLocation": "./prepDownloads/*******",
     "folderName": "9834",
     "additionalInfo": "9834"
   }

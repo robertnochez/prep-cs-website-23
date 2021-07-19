@@ -1,17 +1,8 @@
 import React from "react";
 import "./../App.css";
 
+import { Link } from "react-router-dom";
 import { Icon, Table } from "semantic-ui-react";
-
-// function calendarRows(props) {
-//   map((row) => {
-//     return (
-//       <Table.Row>
-//         <Table.Cell collapsing>row.</Table.Cell>
-//       </Table.Row>
-//     );
-//   });
-// }
 
 class Calendar extends React.Component {
   render() {
@@ -19,10 +10,12 @@ class Calendar extends React.Component {
       return (
         <Table.Row>
           <Table.Cell collapsing>{row.lessonNumber}</Table.Cell>
-          <Table.Cell>{row.topic}</Table.Cell>
+          <Table.Cell>
+            <Link to={row.path}>{row.topic}</Link>
+          </Table.Cell>
           <Table.Cell>
             <Icon name="folder" />
-            <a href={row.folderLocation} download={row.folderName}>
+            <a href={row.folderLocation} download>
               {row.folderName}
             </a>
           </Table.Cell>
@@ -56,6 +49,8 @@ class Calendar extends React.Component {
               </Table.HeaderCell>
             </Table.Row>
           </Table.Header>
+
+          {/* Insert rows mapped from JSON file into the table body.  */}
           <Table.Body>{calendarRows}</Table.Body>
         </Table>
       </div>
