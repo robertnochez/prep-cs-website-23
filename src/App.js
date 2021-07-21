@@ -15,6 +15,8 @@ import VisitorHome from "./pages/Visitor/VisitorHome";
 
 import WMCodeLesson1 from "./pages/WMCode/Lesson1";
 import WMCodeLesson2 from "./pages/WMCode/Lesson2";
+import PREPLesson1 from "./pages/PREP/Lesson1";
+import PREPLesson2 from "./pages/PREP/Lesson2";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -99,6 +101,12 @@ function App() {
          */}
 
         {/* Paths for PREP CS Lesson Pages */}
+        <Route path="/prepcs-lesson1">
+          <PREPLesson1 />
+        </Route>
+        <Route path="/prepcs-lesson2">
+          <PREPLesson2 />
+        </Route>
         {/* 
             TODO: Cris
          */}

@@ -5,30 +5,110 @@
     "topic": "Welcome to PREP!",
     "folderLocation": "./prepDownloads/sample.zip",
     "folderName": "lesson1",
-    "additionalInfo": "FOR CRIS: Use This Object as a Sample of What It Should Look Like ... This is in /pages/PREP/calendarData.json"
+    "additionalInfo": "Welcome friends! Hope you have a wonderful time learning CS with us :)"
   },
   {
     "lessonNumber": "2",
     "path": "/prepcs-lesson2",
-    "topic": "Create Files and Link the Files Together in App.js",
+    "topic": "Python Syntax",
     "folderLocation": "./prepDownloads/*******",
-    "folderName": "its late",
-    "additionalInfo": "none"
+    "folderName": "lesson2",
+    "additionalInfo": "Operators, operands, expressions, data types."
   },
   {
     "lessonNumber": "3",
     "path": "/prepcs-lesson3",
-    "topic": "printing",
+    "topic": "Functions and If-Statements",
     "folderLocation": "./prepDownloads/*******",
-    "folderName": "go get it",
-    "additionalInfo": "hello there"
+    "folderName": "lesson3",
+    "additionalInfo": "Built in functions, assignment, custom functions, if statements"
+  },
+  {
+    "lessonNumber": "4",
+    "path": "/prepcs-lesson4",
+    "topic": "Control",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson4",
+    "additionalInfo": "Elif (else if) and else clause, environment diagrams."
+  },
+  {
+    "lessonNumber": "5",
+    "path": "/prepcs-lesson5",
+    "topic": "Control: The 'While' Loop",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson5",
+    "additionalInfo": "The while loop."
+  },
+  {
+    "lessonNumber": "6",
+    "path": "/prepcs-lesson6",
+    "topic": "Iterables and the 'For' Loop",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "Iterables, for loops.",
+    "additionalInfo": "none"
   },
   {
     "lessonNumber": "7",
-    "path": "/prepcs-lesson4",
-    "topic": "9",
+    "path": "/prepcs-lesson7",
+    "topic": "Higher-Order Functions",
     "folderLocation": "./prepDownloads/*******",
-    "folderName": "9834",
-    "additionalInfo": "9834"
+    "folderName": "lesson7",
+    "additionalInfo": "Helper functions, higher-order functions."
+  },
+  {
+    "lessonNumber": "8",
+    "path": "/prepcs-lesson8",
+    "topic": "Lambda Expressions",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson8",
+    "additionalInfo": "Lambda Expressions, HOF simplification."
+  },
+  {
+    "lessonNumber": "9",
+    "path": "/prepcs-lesson9",
+    "topic": "Recursion",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson9",
+    "additionalInfo": "Recursion: factorial, fibonacci."
+  },
+  {
+    "lessonNumber": "10",
+    "path": "/prepcs-lesson10",
+    "topic": "Recursion Practice",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson10",
+    "additionalInfo": "Recursion review, practice problems."
+  },
+  {
+    "lessonNumber": "11",
+    "path": "/prepcs-lesson11",
+    "topic": "More Recursion Practice",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson11",
+    "additionalInfo": "Recursion practice problems."
+  },
+  {
+    "lessonNumber": "12",
+    "path": "/prepcs-lesson12",
+    "topic": "Tree",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson12",
+    "additionalInfo": "Data abstraction, trees."
+  },
+  {
+    "lessonNumber": "13",
+    "path": "/prepcs-lesson13",
+    "topic": "Summative Review 1",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson13",
+    "additionalInfo": "Review of course topics, practice problems."
+  },
+  {
+    "lessonNumber": "14",
+    "path": "/prepcs-lesson14",
+    "topic": "Summative Review 2",
+    "folderLocation": "./prepDownloads/*******",
+    "folderName": "lesson14",
+    "additionalInfo": "More review of course topics, practice problems, and ending remarks. We hope you enjoyed learning CS with us!"
   }
 ]
