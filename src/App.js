@@ -15,8 +15,7 @@ import VisitorHome from "./pages/Visitor/VisitorHome";
 
 import WMCodeLesson1 from "./pages/WMCode/Lesson1";
 import WMCodeLesson2 from "./pages/WMCode/Lesson2";
-import PREPLesson1 from "./pages/PREP/Lesson1";
-import PREPLesson2 from "./pages/PREP/Lesson2";
+import PREPLesson from "./pages/PREP/Lesson";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -102,10 +101,53 @@ function App() {
 
         {/* Paths for PREP CS Lesson Pages */}
         <Route path="/prepcs-lesson1">
-          <PREPLesson1 />
+          <PREPLesson
+            header="Welcome to PREP!"
+            description="Hello everyone! Welcome to PREP CS 2021. This lesson is meant to be a chill one and is meant to get y'all
+            situated for later lessons. Here, we'll introduce ourselves, and setup a coding environment. Glad to have you here!"
+            slideSrc=""
+            prevLesson={null}
+            nextLesson=""
+          />
         </Route>
         <Route path="/prepcs-lesson2">
-          <PREPLesson2 />
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson3">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson4">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson5">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson6">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson7">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson8">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson9">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson10">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson11">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson12">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson13">
+          <PREPLesson />
+        </Route>
+        <Route path="/prepcs-lesson14">
+          <PREPLesson />
         </Route>
         {/* 
             TODO: Cris
