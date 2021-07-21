@@ -1,0 +1,18 @@
+[
+  {
+    "lessonNumber": "1",
+    "path": "wmcode-lesson1",
+    "topic": "What is Computer Science?",
+    "folderLocation": "./wmcodeDownloads/lesson1.zip",
+    "folderName": "lesson1",
+    "additionalInfo": "Practice downloading and saving files!"
+  },
+  {
+    "lessonNumber": "2",
+    "path": "wmcode-lesson2",
+    "topic": "Python Syntax",
+    "folderLocation": "./wmcodeDownloads/lesson2.zip",
+    "folderName": "lesson2",
+    "additionalInfo": ""
+  }
+]
