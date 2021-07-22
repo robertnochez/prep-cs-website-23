@@ -26,6 +26,20 @@ hr {
   border-left: 0;
 }
 
+.slides {
+  width: 75vw;
+  height: 60vh;
+  margin: auto;
+  /* border: 5px solid blueviolet; */
+}
+
+.slides iframe {
+  width: 70vw;
+  height: 60vh;
+  margin: auto;
+  /* border: 5px solid green; */
+}
+
 /* Following CSS is from https://www.labnol.org/embed-google-slides-200615 */
 .responsive-google-slides {
   position: relative;
