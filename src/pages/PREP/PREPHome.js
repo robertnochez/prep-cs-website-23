@@ -10,6 +10,11 @@ import HomeImage from "../../images/PREPHome.png";
 function PREPHome(props) {
   return (
     <div>
+
+      <br />
+      <br />
+      <br />
+
       <NavBar
         img={HomeImage}
         title="Welcome to PREP Computer Science!"
@@ -17,8 +22,7 @@ function PREPHome(props) {
         LearningPlatform is happy to take this opportunity to 
         introduce you to UC Berkeley Computer Science."
       />
-
-      <br />
+      
       <br />
       <br />
 

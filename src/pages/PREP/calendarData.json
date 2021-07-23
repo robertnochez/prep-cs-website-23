@@ -44,8 +44,8 @@
     "path": "/prepcs-lesson6",
     "topic": "Iterables and the 'For' Loop",
     "folderLocation": "./prepDownloads/*******",
-    "folderName": "Iterables, for loops.",
-    "additionalInfo": "none"
+    "folderName": "lesson6",
+    "additionalInfo": "Iterables, for loops."
   },
   {
     "lessonNumber": "7",
@@ -90,7 +90,7 @@
   {
     "lessonNumber": "12",
     "path": "/prepcs-lesson12",
-    "topic": "Tree",
+    "topic": "Trees",
     "folderLocation": "./prepDownloads/*******",
     "folderName": "lesson12",
     "additionalInfo": "Data abstraction, trees."

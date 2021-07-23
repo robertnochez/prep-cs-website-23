@@ -16,6 +16,20 @@ import VisitorHome from "./pages/Visitor/VisitorHome";
 import WMCodeLesson1 from "./pages/WMCode/Lesson1";
 import WMCodeLesson2 from "./pages/WMCode/Lesson2";
 import PREPLesson from "./pages/PREP/Lesson";
+import PREPLesson1 from "./pages/PREP/PREPLesson1";
+import PREPLesson2 from "./pages/PREP/PREPLesson2";
+import PREPLesson3 from "./pages/PREP/PREPLesson3";
+import PREPLesson4 from "./pages/PREP/PREPLesson4";
+import PREPLesson5 from "./pages/PREP/PREPLesson5";
+import PREPLesson6 from "./pages/PREP/PREPLesson6";
+import PREPLesson7 from "./pages/PREP/PREPLesson7";
+import PREPLesson8 from "./pages/PREP/PREPLesson8";
+import PREPLesson9 from "./pages/PREP/PREPLesson9";
+import PREPLesson10 from "./pages/PREP/PREPLesson10";
+import PREPLesson11 from "./pages/PREP/PREPLesson11";
+import PREPLesson12 from "./pages/PREP/PREPLesson12";
+import PREPLesson13 from "./pages/PREP/PREPLesson13";
+import PREPLesson14 from "./pages/PREP/PREPLesson14";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -101,53 +115,46 @@ function App() {
 
         {/* Paths for PREP CS Lesson Pages */}
         <Route path="/prepcs-lesson1">
-          <PREPLesson
-            header="Welcome to PREP!"
-            description="Hello everyone! Welcome to PREP CS 2021. This lesson is meant to be a chill one and is meant to get y'all
-            situated for later lessons. Here, we'll introduce ourselves, and setup a coding environment. Glad to have you here!"
-            slideSrc=""
-            prevLesson={null}
-            nextLesson=""
-          />
+          <PREPLesson1 />
         </Route>
         <Route path="/prepcs-lesson2">
-          <PREPLesson />
+          <PREPLesson2 />
         </Route>
         <Route path="/prepcs-lesson3">
-          <PREPLesson />
+          <PREPLesson3 />
         </Route>
         <Route path="/prepcs-lesson4">
-          <PREPLesson />
+          <PREPLesson4 />
         </Route>
         <Route path="/prepcs-lesson5">
-          <PREPLesson />
+          <PREPLesson5 />
         </Route>
         <Route path="/prepcs-lesson6">
-          <PREPLesson />
+          <PREPLesson6 />
         </Route>
         <Route path="/prepcs-lesson7">
-          <PREPLesson />
+          <PREPLesson7 />
         </Route>
         <Route path="/prepcs-lesson8">
-          <PREPLesson />
+          <PREPLesson8 />
         </Route>
         <Route path="/prepcs-lesson9">
-          <PREPLesson />
+          <PREPLesson9 />
         </Route>
         <Route path="/prepcs-lesson10">
-          <PREPLesson />
+          <PREPLesson10 />
         </Route>
         <Route path="/prepcs-lesson11">
-          <PREPLesson />
+          <PREPLesson11 />
         </Route>
         <Route path="/prepcs-lesson12">
-          <PREPLesson />
+          <PREPLesson12 />
         </Route>
         <Route path="/prepcs-lesson13">
-          <PREPLesson />
+          <PREPLesson13 />
         </Route>
         <Route path="/prepcs-lesson14">
-          <PREPLesson />
+          <PREPLesson14 />
         </Route>
         {/* 
             TODO: Cris
