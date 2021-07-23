@@ -5,7 +5,7 @@ import WMCodeInfo from "./pages/WMCodeInfo";
 import PREPCSInfo from "./pages/PREPCSInfo";
 import SampleLesson from "./pages/SampleLesson";
 import Contact from "./pages/Contact";
-import Practice from "./pages/Practice"
+import Practice from "./pages/Practice";
 
 import LoginModal from "./components/LoginModal";
 import UserInfoModal from "./components/UserInfoModal";
@@ -15,6 +15,14 @@ import VisitorHome from "./pages/Visitor/VisitorHome";
 
 import WMCodeLesson1 from "./pages/WMCode/Lesson1";
 import WMCodeLesson2 from "./pages/WMCode/Lesson2";
+import WMCodeLesson3 from "./pages/WMCode/Lesson3";
+import WMCodeLesson4 from "./pages/WMCode/Lesson4";
+import WMCodeLesson5 from "./pages/WMCode/Lesson5";
+import WMCodeLesson6 from "./pages/WMCode/Lesson6";
+import WMCodeLesson7 from "./pages/WMCode/Lesson7";
+import WMCodeLesson8 from "./pages/WMCode/Lesson8";
+import WMCodeLesson9 from "./pages/WMCode/Lesson9";
+
 import PREPLesson from "./pages/PREP/Lesson";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -94,6 +102,27 @@ function App() {
         </Route>
         <Route path="/wmcode-lesson2">
           <WMCodeLesson2 />
+        </Route>
+        <Route path="/wmcode-lesson3">
+          <WMCodeLesson3 />
+        </Route>
+        <Route path="/wmcode-lesson4">
+          <WMCodeLesson4 />
+        </Route>
+        <Route path="/wmcode-lesson5">
+          <WMCodeLesson5 />
+        </Route>
+        <Route path="/wmcode-lesson6">
+          <WMCodeLesson6 />
+        </Route>
+        <Route path="/wmcode-lesson7">
+          <WMCodeLesson7 />
+        </Route>
+        <Route path="/wmcode-lesson8">
+          <WMCodeLesson8 />
+        </Route>
+        <Route path="/wmcode-lesson9">
+          <WMCodeLesson9 />
         </Route>
         {/* 
             TODO: Jesus

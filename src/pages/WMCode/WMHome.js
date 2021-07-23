@@ -5,6 +5,7 @@ import Calendar from "../../components/Calendar";
 import calendarData from "./calendarData.json";
 
 import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
 import WMCode1 from "../../images/WMCode1.png";
 
 function WMHome(props) {
@@ -23,6 +24,7 @@ function WMHome(props) {
       <br />
 
       <Calendar data={calendarData} />
+      <Footer />
     </div>
   );
 }

@@ -2,17 +2,73 @@
   {
     "lessonNumber": "1",
     "path": "wmcode-lesson1",
-    "topic": "What is Computer Science?",
+    "topic": "Operators and Assignment",
     "folderLocation": "./wmcodeDownloads/lesson1.zip",
     "folderName": "lesson1",
-    "additionalInfo": "Practice downloading and saving files!"
+    "additionalInfo": "File contains autograded assignment practice."
   },
   {
     "lessonNumber": "2",
     "path": "wmcode-lesson2",
-    "topic": "Python Syntax",
+    "topic": "Assignment Cont'd, and Functions",
     "folderLocation": "./wmcodeDownloads/lesson2.zip",
     "folderName": "lesson2",
-    "additionalInfo": ""
+    "additionalInfo": "Practice using operators and functions by writing calculator methods."
+  },
+  {
+    "lessonNumber": "3",
+    "path": "wmcode-lesson3",
+    "topic": "Functions Cont'd",
+    "folderLocation": "./wmcodeDownloads/lesson3.zip",
+    "folderName": "lesson3",
+    "additionalInfo": "Solving math problems with functions, with an emphasis on helper methods."
+  },
+  {
+    "lessonNumber": "4",
+    "path": "wmcode-lesson4",
+    "topic": "Control, Part 1: Conditional Statements",
+    "folderLocation": "./wmcodeDownloads/lesson4.zip",
+    "folderName": "lesson4",
+    "additionalInfo": "Practice using if-elif-else blocks."
+  },
+  {
+    "lessonNumber": "5",
+    "path": "wmcode-lesson5",
+    "topic": "Control, Part 2: Boolean Values",
+    "folderLocation": "./wmcodeDownloads/lesson5.zip",
+    "folderName": "lesson5",
+    "additionalInfo": "Using and returning booleans to solve problems."
+  },
+  {
+    "lessonNumber": "6",
+    "path": "wmcode-lesson6",
+    "topic": "Control, Part 3: The While Statement",
+    "folderLocation": "./wmcodeDownloads/lesson6.zip",
+    "folderName": "lesson6",
+    "additionalInfo": "Using the 'while' loop in methods to simplify problem-solving."
+  },
+  {
+    "lessonNumber": "7",
+    "path": "wmcode-lesson7",
+    "topic": "Iterables, Part 1: Lists",
+    "folderLocation": "./wmcodeDownloads/lesson7.zip",
+    "folderName": "lesson7",
+    "additionalInfo": "Constructing and accessing items in a list."
+  },
+  {
+    "lessonNumber": "8",
+    "path": "wmcode-lesson8",
+    "topic": "List Applications",
+    "folderLocation": "./wmcodeDownloads/lesson8.zip",
+    "folderName": "lesson8",
+    "additionalInfo": "Writing methods that take advantage of Python lists."
+  },
+  {
+    "lessonNumber": "9",
+    "path": "wmcode-lesson9",
+    "topic": "Iterables, Part 2: Dictionaries",
+    "folderLocation": "",
+    "folderName": "",
+    "additionalInfo": "No file."
   }
 ]

@@ -5,6 +5,21 @@
   padding-right: 5px;
 }
 
+.wmcode-page {
+  margin: 0vh 2vw;
+}
+
+.wmcode-page ul,
+ol {
+  margin-left: 4vw;
+}
+
+.wmcode-page pre {
+  /* margin-left: 4vw; */
+  background-color: rgb(235, 217, 204);
+  /* padding-left: 20px; */
+}
+
 button {
   font-weight: bolder;
 }
