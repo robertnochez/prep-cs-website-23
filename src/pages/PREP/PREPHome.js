@@ -5,12 +5,12 @@ import Calendar from "../../components/Calendar";
 import calendarData from "./calendarData.json";
 
 import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
 import HomeImage from "../../images/PREPHome.png";
 
 function PREPHome(props) {
   return (
     <div>
-
       <br />
       <br />
       <br />
@@ -22,11 +22,12 @@ function PREPHome(props) {
         LearningPlatform is happy to take this opportunity to 
         introduce you to UC Berkeley Computer Science."
       />
-      
+
       <br />
       <br />
 
       <Calendar data={calendarData} />
+      <Footer />
     </div>
   );
 }

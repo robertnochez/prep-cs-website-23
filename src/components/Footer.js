@@ -2,43 +2,46 @@ import React from "react";
 import "./../App.css";
 
 import { Segment, Container, Grid, List, Header } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 function Footer(props) {
   return (
-    <div style={{ backgroundColor: "" }}>
-      <Segment vertical style={{ padding: "5em 0em" }}>
-        <hr />
-        <Container>
-          <Grid stackable>
-            <Grid.Row>
-              <Grid.Column width={5}>
-                <Header as="h4" content="Menu 1" />
-                <List link>
-                  <List.Item as="a">Item 1</List.Item>
-                  <List.Item as="a">Item 2</List.Item>
-                  <List.Item as="a">Item 3</List.Item>
-                  <List.Item as="a">Item 4</List.Item>
-                </List>
-              </Grid.Column>
-              <Grid.Column width={5}>
-                <Header as="h4" content="Menu 2" />
-                <List link>
-                  <List.Item as="a">Item 1</List.Item>
-                  <List.Item as="a">Item 2</List.Item>
-                  <List.Item as="a">Item 3</List.Item>
-                  <List.Item as="a">Item 4</List.Item>
-                </List>
-              </Grid.Column>
-              {/* <Grid.Column width={7}>
-                <Header as="h4">Footer Header</Header>
-                <p>
-                  Extra space for a call to action inside the footer that could
-                  help re-engage users.
-                </p>
-              </Grid.Column> */}
-            </Grid.Row>
-          </Grid>
-        </Container>
+    <div class="footer">
+      <Segment vertical>
+        <Grid stackable>
+          <Grid.Row>
+            <Grid.Column width={5}>
+              <Link to="/">
+                <Header as={"h4"}>Home</Header>
+              </Link>
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <Link to="/wmcode">
+                <Header as={"h4"}>WMCode</Header>
+              </Link>
+            </Grid.Column>
+            <Grid.Column width={5}>
+              <Link to="/prepcs">
+                <Header as={"h4"}>PREP CS</Header>
+              </Link>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column width={1}></Grid.Column>
+            <Grid.Column width={5} textAlign={"left"}>
+              <Header as="h6">
+                Jesus Villalobos and Cristian Moran, 2021.
+              </Header>
+            </Grid.Column>
+            <Grid.Column width={4}></Grid.Column>
+            <Grid.Column width={5} textAlign={"right"}>
+              <Header as="h6">
+                Learning Hub has no official affiliation with UC Berkeley.
+              </Header>
+            </Grid.Column>
+            <Grid.Column width={1}></Grid.Column>
+          </Grid.Row>
+        </Grid>
       </Segment>
     </div>
   );
