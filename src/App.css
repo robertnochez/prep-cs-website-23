@@ -68,14 +68,15 @@ hr {
   margin-left: 4vw;
 }
 
-.slides {
+.embedded {
   width: 75vw;
   height: 60vh;
   margin: auto;
+  text-align: center;
   /* border: 5px solid blueviolet; */
 }
 
-.slides iframe {
+.embedded iframe {
   width: 70vw;
   height: 60vh;
   margin: auto;

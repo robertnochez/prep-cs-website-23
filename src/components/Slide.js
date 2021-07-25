@@ -3,7 +3,7 @@ import "../App.css";
 
 function Slide(props) {
   return (
-    <div class="slides" style={{ textAlign: "center" }}>
+    <div class="embedded">
       <iframe
         src={props.src}
         frameborder="0"
