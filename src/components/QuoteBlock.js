@@ -8,8 +8,8 @@ function QuoteBlock(props) {
     <div
       style={{
         backgroundColor: props.background ? "#EDEAE5" : "",
-        paddingTop: 100,
-        paddingBottom: 100,
+        // paddingTop: 100,
+        // paddingBottom: 100,
       }}
     >
       <Grid stackable padded textAlign={"center"} verticalAlign={"middle"}>

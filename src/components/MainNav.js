@@ -20,7 +20,7 @@ export default class MainNav extends Component {
           verticalAlign={"middle"}
           columns={1}
         >
-          <Grid.Row>
+          <Grid.Row style={{ marginBottom: 50 }}>
             <Menu
               size="large"
               secondary
@@ -54,7 +54,7 @@ export default class MainNav extends Component {
               <Menu.Menu position="right">
                 <Menu.Item
                   as={Link}
-                  to="/wmcode-info"
+                  to="/wmcode"
                   name="WMCode"
                   content="WMCode"
                   active={activeItem === "WMCode"}
@@ -63,7 +63,7 @@ export default class MainNav extends Component {
 
                 <Menu.Item
                   as={Link}
-                  to="/prepcs-info"
+                  to="/prepcs"
                   name="PREP CS"
                   content="PREP CS"
                   active={activeItem === "PREP CS"}
@@ -102,7 +102,7 @@ export default class MainNav extends Component {
             </Menu>
           </Grid.Row>
 
-          <Grid.Row columns={2}>
+          <Grid.Row columns={2} textAlign={"center"}>
             <Grid.Column width={5}>
               <>
                 <Header as="h1" style={{ color: "#700C02" }}>

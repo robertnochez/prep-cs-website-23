@@ -5,21 +5,28 @@ import Calendar from "../../components/Calendar";
 import calendarData from "./calendarData.json";
 
 import NavBar from "../../components/NavBar";
+import QuoteBlock from "../../components/QuoteBlock";
 import Footer from "../../components/Footer";
-import WMCode1 from "../../images/WMCode1.png";
+import WMCodeInfoImage from "../../images/WMCodeInfo.png";
 
 function WMHome(props) {
   return (
     <div>
       <NavBar
-        img={WMCode1}
+        img={WMCodeInfoImage}
         title="Welcome to WMCode!"
         description="
         LearningPlatform is happy to take this opportunity to 
         show you the beauty of computer science."
       />
 
-      <br />
+      <QuoteBlock
+        bold={true}
+        quote="Awaken people's curiosity. It is enough to open minds, do not overload them. 
+          Put there just a spark."
+        author="A. France"
+      />
+
       <br />
       <br />
 

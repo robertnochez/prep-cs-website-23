@@ -8,16 +8,28 @@ class Calendar extends React.Component {
   render() {
     const calendarRows = this.props.data.map((row) => {
       return (
-        <Table.Row>
+        <Table.Row disabled={row.disabled}>
           <Table.Cell collapsing>{row.lessonNumber}</Table.Cell>
           <Table.Cell>
-            <Link to={row.path}>{row.topic}</Link>
+            {row.disabled ? (
+              row.topic
+            ) : (
+              <>
+                <Link to={row.path}>{row.topic}</Link>
+              </>
+            )}
           </Table.Cell>
           <Table.Cell>
             <Icon name="folder" />
-            <a href={row.folderLocation} download>
-              {row.folderName}
-            </a>
+            {row.disabled ? (
+              row.folderName
+            ) : (
+              <>
+                <a href={row.folderLocation} download>
+                  {row.folderName}
+                </a>
+              </>
+            )}
           </Table.Cell>
           <Table.Cell>{row.additionalInfo}</Table.Cell>
         </Table.Row>
