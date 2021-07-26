@@ -30,7 +30,7 @@ function PREPHome(props) {
         quote="Questions are the important thing, answers are less important. 
           Learning to ask a good question is the heart of intelligence.
           Learning the answer--well, answers are for students. Questions are for thinkers."
-        author="R. Schank (in 'The Connosseur's Guide to the Mind')"
+        author="R. Schank (in 'The Connosseur's Guide to the Mind')."
       />
 
       <Carousel />
