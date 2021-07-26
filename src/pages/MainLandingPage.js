@@ -1,6 +1,8 @@
 import React from "react";
 import "./../App.css";
 
+import { Link } from "react-router-dom";
+
 import NavBar from "./../components/NavBar";
 import Footer from "./../components/Footer";
 import LandingPageImage from "./../images/LandingPage.png";
@@ -24,14 +26,13 @@ function MainLandingPage(props) {
     <div>
       <NavBar
         img={LandingPageImage}
-        title="Welcome to LearningPlatform"
+        title="Welcome to CS Central!"
         description="
-        An independent learning and preperation hub for students
-        interested in Science, Technology, Engineering, Math (STEM) and
-        Computer Science."
+        An independent learning and preparation hub for students
+        interested STEM, with a focus on Computer Science."
       />
 
-      <TitleAndImageBlock
+      {/* <TitleAndImageBlock
         background={true}
         firstTitle="LearningPlatform's Mission"
         firstDescription="We firmly believe that STEM has the power to change the world
@@ -39,7 +40,7 @@ function MainLandingPage(props) {
         secondTitle="Our Learning Model"
         secondDescription="At LearningPlatform, our emphasis is on learning."
         media={<Segment placeholder>PlaceHolder Image</Segment>}
-      />
+      /> */}
 
       {/* <LoginModal /> */}
 
@@ -53,10 +54,14 @@ function MainLandingPage(props) {
 
       <TitleAndImageBlock
         background={true}
-        firstTitle="About LearningPlatform"
-        firstDescription="We firmly believe that STEM has the power to change the world
-          for the better."
-        media={<Segment placeholder>PlaceHolder Image</Segment>}
+        firstTitle="About CS Central"
+        firstDescription="CS Central was started upon the firm belief that anyone 
+          and everyone can learn to code, no matter their background. We are a group 
+          of college students interested in recycling our success in computer science."
+        secondTitle="Our Mission"
+        secondDescription="CS Central is determined to offer resources to aspiring computer 
+          scientists. We want to inspire and empower students to build the future they want 
+          to see, and will provide them with the support they need to get there."
       />
 
       <div style={{ paddingTop: 100, paddingBottom: 100 }}>
@@ -81,7 +86,15 @@ function MainLandingPage(props) {
                 <b>WMCode</b>
               </Header>
             </Grid.Row>
-            <Grid.Row>This is sample text.</Grid.Row>
+            <Grid.Row>
+              <Grid.Column width={8}>
+                WMCode is an introduction-to-computer-science course taught in
+                Richmond, CA to underserved high school students. For the
+                majority of these students, CS Central is their first
+                interaction with computer science, so we strive to inspire them
+                to pursue a STEM or computer science field.
+              </Grid.Column>
+            </Grid.Row>
           </Grid>
         </div>
 
@@ -94,7 +107,7 @@ function MainLandingPage(props) {
           <Grid stackable padded textAlign={"center"}>
             <Grid.Row>
               <Icon
-                name={"spy"}
+                name={"users"}
                 size={"massive"}
                 color={"blue"}
                 inverted
@@ -106,7 +119,13 @@ function MainLandingPage(props) {
                 <b>Pre-Engineering Program</b>
               </Header>
             </Grid.Row>
-            <Grid.Row>This is sample text.</Grid.Row>
+            <Grid.Row>
+              <Grid.Column width={8}>
+                In conjuction with the UC Berkeley Pre-Engineering Program
+                (PREP), CS Central guides incoming first year students through
+                an introduction to the UC Berkeley computer science curriculum.
+              </Grid.Column>
+            </Grid.Row>
           </Grid>
         </div>
       </div>

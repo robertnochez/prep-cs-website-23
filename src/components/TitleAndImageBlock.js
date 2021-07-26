@@ -8,10 +8,10 @@ function TitleAndImageBlock(props) {
     <div
       style={{
         backgroundColor: props.background ? "#EDEAE5" : "",
-        paddingTop: 35,
-        paddingBottom: 35,
-        marginTop: 25,
-        marginBottom: 25,
+        paddingTop: 75,
+        paddingBottom: 75,
+        marginTop: 75,
+        // marginBottom: 25,
       }}
     >
       <Grid
@@ -21,19 +21,21 @@ function TitleAndImageBlock(props) {
         // textAlign={"center"}
       >
         <Grid.Row columns={3}>
-          <Grid.Column width={8} verticalAlign={"middle"}>
+          <Grid.Column width={8} verticalAlign={"middle"} textAlign={"center"}>
             <Header as="h1">
               <b>{props.firstTitle}</b>
             </Header>
             <p>{props.firstDescription}</p>
-            {props.secondTitle ? <br /> : ""}
+            {/* {props.secondTitle ? <br /> : ""} */}
+          </Grid.Column>
+          {/* <Grid.Column width={2}></Grid.Column> */}
+          {/* <Grid.Column width={6}>{props.media}</Grid.Column> */}
+          <Grid.Column width={8} verticalAlign={"middle"} textAlign={"center"}>
             <Header as="h1">
               <b>{props.secondTitle}</b>
             </Header>
             <p>{props.secondDescription}</p>
           </Grid.Column>
-          <Grid.Column width={2}></Grid.Column>
-          <Grid.Column width={6}>{props.media}</Grid.Column>
         </Grid.Row>
       </Grid>
     </div>

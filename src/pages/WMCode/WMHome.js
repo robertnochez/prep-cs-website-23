@@ -16,7 +16,7 @@ function WMHome(props) {
         img={WMCodeInfoImage}
         title="Welcome to WMCode!"
         description="
-        LearningPlatform is happy to take this opportunity to 
+        CS Central is happy to take this opportunity to 
         show you the beauty of computer science."
       />
 

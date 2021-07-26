@@ -37,9 +37,7 @@ export default class MainNav extends Component {
                 paddingRight: 20,
               }}
             >
-              <Menu.Item>
-                <Icon name={"lightbulb outline"} size={"big"} />
-              </Menu.Item>
+              {/* <Menu.Item> */}
 
               <Menu.Item
                 as={Link}
@@ -49,7 +47,10 @@ export default class MainNav extends Component {
                 content="Home"
                 active={activeItem === "Home"}
                 onClick={this.handleItemClick}
-              />
+              >
+                <Icon name={"home"} size={"large"} />
+                <p> Home </p>
+              </Menu.Item>
 
               <Menu.Menu position="right">
                 <Menu.Item
@@ -70,32 +71,32 @@ export default class MainNav extends Component {
                   onClick={this.handleItemClick}
                 />
 
-                <Menu.Item
+                {/* <Menu.Item
                   as={Link}
                   to="/sample-lesson"
                   name="Sample Lesson"
                   content="Sample Lesson"
                   active={activeItem === "Sample Lesson"}
                   onClick={this.handleItemClick}
-                />
+                /> */}
 
-                <Menu.Item
+                {/* <Menu.Item
                   as={Link}
                   to="/contact"
                   name="Contact"
                   content="Contact"
                   active={activeItem === "Contact"}
                   onClick={this.handleItemClick}
-                />
+                /> */}
 
-                <Menu.Item
+                {/* <Menu.Item
                   as={Link}
                   to="/practice"
                   name="Practice"
                   content="Practice"
                   active={activeItem === "Practice"}
                   onClick={this.handleItemClick}
-                />
+                /> */}
 
                 <Menu.Item>{this.props.button}</Menu.Item>
               </Menu.Menu>

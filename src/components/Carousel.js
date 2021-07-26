@@ -20,6 +20,10 @@ class Carousel extends React.Component {
             available materials. We will release materials at 6pm the day before
             they are going to be taught.
           </p>
+          <p>
+            Future announcements will be posted here, so be sure to check back
+            regularly!
+          </p>
         </div>,
       ],
     };
@@ -45,6 +49,10 @@ class Carousel extends React.Component {
           you be successful! Feel free to explore the website and the available
           materials. We will release materials at 6pm the day before they are
           going to be taught.
+        </p>
+        <p>
+          Future announcements will be posted here, so be sure to check back
+          regularly!
         </p>
       </div>,
     ];
@@ -96,7 +104,7 @@ class Carousel extends React.Component {
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={false}
+                    disabled
                     name="2"
                     page={page2}
                     active={activeItem === "2"}
