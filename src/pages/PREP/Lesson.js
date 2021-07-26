@@ -6,21 +6,27 @@ import Slide from "../../components/Slide";
 import Footer from "../../components/Footer";
 import Video from "../../components/Video";
 
-import { Header } from "semantic-ui-react";
+import { Header, Button } from "semantic-ui-react";
 
 function Lesson(props) {
-    return (
-    <div>
-        <MainNav />
-        <Header as={"h1"}>{props.header}</Header>
-        <Header as={"h4"}>{props.description}</Header>
-        <Header as={"h3"}>Slides:</Header>
-        <Slide src={props.slideSrc} />
-        <Header as={"h3"}>Recording:</Header>
-        <Video src={props.videoSrc} />
-        <Footer />
-    </div>
-    );
+    // const lessonReleased = props.released ? true : false
+    // if (lessonReleased) {
+        return (
+        <div>
+            <MainNav />
+            <Header as={"h1"}>{props.header}</Header>
+            <a href={props.lessonDownload}><Button basic color='blue'>Download Lesson</Button></a>
+            <Header as={"h3"}>Description:</Header>
+            <Header as={"h4"}>{props.description}</Header>
+            <Header as={"h3"}>Slides:</Header>
+            <Slide src={props.slideSrc} />
+            <Header as={"h3"}>Recording:</Header>
+            <Video src={props.videoSrc} />
+            <Footer />
+        </div>
+        );
+    // }
+    // return (<div></div>)
 }
 
 export default Lesson

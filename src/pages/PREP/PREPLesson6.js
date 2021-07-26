@@ -6,8 +6,8 @@ function PREPLesson6() {
     return (
         <PREPLesson
           header="Iterables and the 'For' Loop"
-          description="Hello everyone! Welcome to PREP CS 2021. This lesson is meant to be a chill one and is meant to get y'all
-          situated for later lessons. Here, we'll introduce ourselves, and setup a coding environment. Glad to have you here!"
+          description="What are iterables? What are the different types of iterables? Today we will discuss for loops and when
+          to use them instead of while loops."
           slideSrc=""
           prevLesson={null}
           nextLesson=""
