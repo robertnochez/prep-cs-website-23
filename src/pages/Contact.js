@@ -5,7 +5,6 @@ import NavBar from "../components/NavBar";
 import ContactImage from "../images/Contact.png";
 import TitleAndImageBlock from "../components/TitleAndImageBlock";
 import Footer from "../components/Footer";
-import CodeBlock from "../components/CodeBlock";
 
 function Contact(props) {
   return (
