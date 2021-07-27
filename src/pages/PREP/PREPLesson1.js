@@ -12,8 +12,8 @@ function PREPLesson1() {
       slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vSx-nn2Z3LpzeM-J9xufvDpZms5n8SdB1eZn0_JrYmADSb2_sdN4p_g_-A0dBMzkf9la6_Lgr7p3-my/embed?start=false&loop=false&delayms=3000`}
       prevLesson={null}
       nextLesson=""
-      // lessonDownload="/prepDownloads/lesson1.zip"
       released={true}
+      videoSrc="https://www.youtube.com/embed/R-88HPjWN-k"
     />
   );
 }

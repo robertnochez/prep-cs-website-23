@@ -13,7 +13,7 @@ function PREPLesson2() {
         slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vT4buFB6NV7iMWVAY4IziZE6ZKLoZEOATn6Hmusg0x8Mq2AmeLo0R4oB-itT2deqESoRmXCSHh3MZHa/embed?start=false&loop=false&delayms=3000`}
         prevLesson=""
         nextLesson=""
-        released={false}
+        released={true}
       />
     )
 }
