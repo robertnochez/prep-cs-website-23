@@ -13,7 +13,7 @@ function Lesson1() {
       <MainNav />
       <div className="wmcode-page">
         <Header as={"h1"}>Lesson 1 - Operators and Assignment</Header>
-        <a href="./wmcodeDownloads/lesson1.zip" download>
+        <a href="./wmcodeDownloads/wm_lesson1.zip" download>
           <Button basic color="blue">
             Download Lesson
           </Button>
