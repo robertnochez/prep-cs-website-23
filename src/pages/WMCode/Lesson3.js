@@ -5,7 +5,7 @@ import MainNav from "../../components/MainNav";
 import Footer from "../../components/Footer";
 import Slide from "../../components/Slide";
 
-import { Header } from "semantic-ui-react";
+import { Header, Button } from "semantic-ui-react";
 
 function Lesson3() {
   return (
@@ -13,8 +13,14 @@ function Lesson3() {
       <MainNav />
       <div className="wmcode-page">
         <Header as={"h1"}>Lesson 3 - Functions Cont'd</Header>
+        <a href="./wmcodeDownloads/wm_lesson3.zip" download>
+          <Button basic color="blue">
+            Download Lesson
+          </Button>
+        </a>
+        <br /> <br />
+        <br />
         <Slide src="https://docs.google.com/presentation/d/e/2PACX-1vRhuQOwdNTsFaWH2tf3KlJB2ysWB5vjbcUKOabIU1x_ZSVyxW-bTCpVe9nZg5jo_kHyuMC46IoNgegm/embed?start=false&loop=false&delayms=3000" />
-
         <div>
           <h2>Lesson Content:</h2>
           <h3>Calculator Review</h3>

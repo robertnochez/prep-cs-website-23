@@ -17,11 +17,10 @@
   },
   {
     "lessonNumber": "3",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson3",
     "topic": "Functions and If-Statements",
-    "folderLocation": "./prepDownloads/*******",
-    "folderName": "lesson3",
+    "folderName": "No Folder Today :)",
     "additionalInfo": "Built in functions, assignment, custom functions, if statements"
   },
   {
