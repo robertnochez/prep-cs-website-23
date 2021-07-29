@@ -12,6 +12,7 @@ function PREPLesson3() {
         slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vQz89eLN_PxZd94zgRAeotYg3dFyob3dFV1NYmP2jzG9hqKJ0b871Y4mpXMjutIeXLZSVSRM5GlZgbT/embed?start=false&loop=false&delayms=3000`}
         prevLesson=""
         nextLesson=""
+        videoSrc={'https://www.youtube.com/embed/GbNe2si14sg'}
         />
     )
 }
