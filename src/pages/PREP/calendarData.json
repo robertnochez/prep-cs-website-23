@@ -25,11 +25,10 @@
   },
   {
     "lessonNumber": "4",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson4",
     "topic": "Control",
-    "folderLocation": "./prepDownloads/*******",
-    "folderName": "lesson4",
+    "folderName": "No Folder Today :)",
     "additionalInfo": "Elif (else if) and else clause, environment diagrams."
   },
   {
