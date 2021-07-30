@@ -33,7 +33,7 @@
   },
   {
     "lessonNumber": "5",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson5",
     "topic": "Control: The 'While' Loop",
     "folderLocation": "./prepDownloads/*******",
