@@ -7,24 +7,30 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "10",
+      activeItem: "2",
       activePage: [
         <div>
-          <Header as={"h3"}>
-            <b>Welcome In!</b>
-          </Header>
-          <p>
-            We're happy to have you here, and look forward to helping you be
-            successful! We're happy to have you here, and look forward to
-            helping you be successful! Feel free to explore the website and the
-            available materials. We will release materials at 6pm the day before
-            they are going to be taught.
-          </p>
-          <p>
-            Future announcements will be posted here, so be sure to check back
-            regularly!
-          </p>
-        </div>,
+        <Header as={"h3"}>
+          <b>Office Hours</b>
+        </Header>
+        <p>
+          As you may have already seen in your emails, we will be holding office hours 
+          throughout the week to make sure you have a space to ask any questions you have,
+          and have them answered. Current dates and times are listed below, and we may add 
+          more times if we see office hours are popular! Drop by to ask anything ... 
+          CS-related, Cal-related, or anything else!
+        </p>
+        <p>
+          <b>Karen's OH:</b> Mondays and Wednesdays, 5-6pm. 
+          <a
+            target="_blank" 
+            rel="noopener noreferrer"
+            href="https://berkeley.zoom.us/j/92460458306?pwd=RVlJN0lLU29JNzcySzFVTzFNd1BNdz09"
+          >
+            JOIN MEETING
+          </a>
+        </p>
+      </div>,
       ],
     };
   }
@@ -60,11 +66,25 @@ class Carousel extends React.Component {
     const page2 = [
       <div>
         <Header as={"h3"}>
-          <b>Sample Announcement</b>
+          <b>Office Hours</b>
         </Header>
-        <p>Second Announcement - Line 1</p>
-        <br />
-        <p>Second Announcement - Line 2</p>
+        <p>
+          As you may have already seen in your emails, we will be holding office hours 
+          throughout the week to make sure you have a space to ask any questions you have,
+          and have them answered. Current dates and times are listed below, and we may add 
+          more times if we see office hours are popular! Drop by to ask anything ... 
+          CS-related, Cal-related, or anything else!
+        </p>
+        <p>
+          <b>Karen's OH:</b> Mondays and Wednesdays, 5-6pm. 
+          <a
+            target="_blank" 
+            rel="noopener noreferrer"
+            href="https://berkeley.zoom.us/j/92460458306?pwd=RVlJN0lLU29JNzcySzFVTzFNd1BNdz09"
+          >
+            JOIN MEETING
+          </a>
+        </p>
       </div>,
     ];
 
@@ -88,7 +108,7 @@ class Carousel extends React.Component {
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled
+                    disabled={false}
                     name="2"
                     page={page2}
                     active={activeItem === "2"}

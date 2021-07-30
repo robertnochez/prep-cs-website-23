@@ -28,7 +28,8 @@
     "disabled": false,
     "path": "/prepcs-lesson4",
     "topic": "Control",
-    "folderName": "No Folder Today :)",
+    "folderLocation": "./prepDownloads/prep_lesson4.zip",
+    "folderName": "lesson4",
     "additionalInfo": "Elif (else if) and else clause, environment diagrams."
   },
   {
