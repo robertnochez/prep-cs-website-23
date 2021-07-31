@@ -43,7 +43,7 @@
   },
   {
     "lessonNumber": "6",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson6",
     "topic": "Iterables and the 'For' Loop",
     "folderLocation": "./prepDownloads/*******",

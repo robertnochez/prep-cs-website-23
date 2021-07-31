@@ -9,8 +9,6 @@ import Video from "../../components/Video";
 import { Header, Button } from "semantic-ui-react";
 
 function Lesson(props) {
-  // const lessonReleased = props.released ? true : false
-  // if (lessonReleased) {
   return (
     <div>
       <MainNav />
@@ -29,8 +27,6 @@ function Lesson(props) {
       <Footer />
     </div>
   );
-  // }
-  // return (<div></div>)
 }
 
 export default Lesson;
