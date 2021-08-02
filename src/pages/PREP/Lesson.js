@@ -13,14 +13,14 @@ function Lesson(props) {
     <div>
       <MainNav />
       <Header as={"h1"}>{props.header}</Header>
-      <a href={props.lessonDownload} download>
+      {/* <a href={props.lessonDownload} download>
         <Button basic color="blue">
           Download Lesson
         </Button>
-      </a>
+      </a> */}
       <Header as={"h3"}>Description:</Header>
       <Header as={"h4"}>{props.description}</Header>
-      <Header as={"h3"}>Slides:</Header>
+      <Header as={"h3"}>Slides <a href={props.slideLink}>(link)</a>:</Header>
       <Slide src={props.slideSrc} />
       <Header as={"h3"}>Recording:</Header>
       <Video src={props.videoSrc} />

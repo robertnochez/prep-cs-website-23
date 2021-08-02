@@ -13,6 +13,7 @@ function PREPLesson3() {
         prevLesson=""
         nextLesson=""
         videoSrc={'https://www.youtube.com/embed/GbNe2si14sg'}
+        slideLink={`https://docs.google.com/presentation/d/1fPmNOmagso5gyqxniew7uQE5onsu3bbUblHCHN-WbvM/edit?usp=sharing`}
         />
     )
 }

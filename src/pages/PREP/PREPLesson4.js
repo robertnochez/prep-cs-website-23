@@ -13,6 +13,7 @@ function PREPLesson4() {
           nextLesson=""
           videoSrc={`https://www.youtube.com/embed/ymTeLrLzsIM`}
           lessonDownload="./prepDownloads/prep_lesson4.zip"
+          slideLink={`https://docs.google.com/presentation/d/1t6F-lPGgsKP5yCIXonO_3z3uwd0-dN_iwfoDMZPyy9Y/edit?usp=sharing`}
         />
     )
 }

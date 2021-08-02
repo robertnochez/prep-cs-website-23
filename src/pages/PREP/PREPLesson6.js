@@ -11,6 +11,8 @@ function PREPLesson6() {
           slideSrc=""
           prevLesson={null}
           nextLesson=""
+          videoSrc="https://www.youtube.com/embed/BKh9iRQQDxM"
+          slideLink={`https://docs.google.com/presentation/d/1DyzrfbdbxW_4RtJQ1B48QXbIDuxh0fkmVJSJzgY2SBk/edit?usp=sharing`}
         />
     )
 }

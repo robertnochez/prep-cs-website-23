@@ -15,6 +15,7 @@ function PREPLesson2() {
       nextLesson=""
       released={true}
       videoSrc="https://www.youtube.com/embed/j1iVh5eHGxI"
+      slideLink={`https://docs.google.com/presentation/d/1PBOv_KWu_MJi5Ax-tSFCiTR0yz6PxNxAxzyoIx9M284/edit?usp=sharing`}
     />
   );
 }
