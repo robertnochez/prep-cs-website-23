@@ -11,12 +11,9 @@ function PREPLesson6() {
           slideSrc="https://docs.google.com/presentation/d/e/2PACX-1vRjODe7bzL9NYyw9p-EyNZJ6lFu4CV0gzFQS0vjxICy3aeVsvqIc3BsahWS3frP9-SPm_A5qMt_SARL/embed?start=false&loop=false&delayms=3000" 
           prevLesson={null}
           nextLesson=""
-<<<<<<< HEAD
           videoSrc="https://www.youtube.com/embed/BKh9iRQQDxM"
           slideLink={`https://docs.google.com/presentation/d/1DyzrfbdbxW_4RtJQ1B48QXbIDuxh0fkmVJSJzgY2SBk/edit?usp=sharing`}
-=======
           lessonDownload="./prepDownloads/prep_lesson6.zip"
->>>>>>> 8d4c2dd3d46f74518323e917e1d6289fac182e86
         />
     )
 }
