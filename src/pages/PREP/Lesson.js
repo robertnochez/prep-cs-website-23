@@ -24,6 +24,7 @@ function Lesson(props) {
       <Slide src={props.slideSrc} />
       <Header as={"h3"}>Recording:</Header>
       <Video src={props.videoSrc} />
+      {props.children}
       <Footer />
     </div>
   );
