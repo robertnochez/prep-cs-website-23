@@ -11,6 +11,7 @@ function PREPLesson7() {
           slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vQtqn14Q2srW5C5hGVJpqTq6oSota1izvQ65nd0C4cKw69yikqc55Qoxy1_GEbxQG2W7hyiAvQ5O2Rk/embed?start=false&loop=false&delayms=3000`}
           prevLesson={null}
           nextLesson=""
+          slideLink={`https://docs.google.com/presentation/d/1-goU-UOy7GQaGVfITzajwlgCCS4LXB8iN_lcFM9Q-xY/edit?usp=sharing`}
         />
     )
 }
