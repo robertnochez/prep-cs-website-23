@@ -30,6 +30,16 @@ class Carousel extends React.Component {
             JOIN MEETING
           </a>
         </p>
+        <p>
+          <b>Cristian's OH:</b> Tuesdays and Thursdays, 5-6pm. 
+          <a
+            target="_blank" 
+            rel="noopener noreferrer"
+            href="https://berkeley.zoom.us/j/99662937200"
+          >
+            JOIN MEETING
+          </a>
+        </p>
       </div>,
       ],
     };
