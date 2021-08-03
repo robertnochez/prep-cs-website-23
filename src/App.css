@@ -76,8 +76,8 @@ hr {
 }
 
 .embedded {
-  width: 75vw;
-  height: 60vh;
+  width: 70vw;
+  height: 70vh;
   margin: auto;
   text-align: center;
   /* border: 5px solid blueviolet; */
@@ -85,7 +85,7 @@ hr {
 
 .embedded iframe {
   width: 70vw;
-  height: 60vh;
+  height: 70vh;
   margin: auto;
   /* border: 5px solid green; */
 }
