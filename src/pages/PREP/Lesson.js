@@ -20,7 +20,13 @@ function Lesson(props) {
       </a> */}
       <Header as={"h3"}>Description:</Header>
       <Header as={"h4"}>{props.description}</Header>
-      <Header as={"h3"}>Slides <a href={props.slideLink}>(link)</a>:</Header>
+      <Header as={"h3"}>
+        Slides
+        <a href={props.slideLink} target="_blank" rel="noopener noreferrer">
+          (link)
+        </a>
+        :
+      </Header>
       <Slide src={props.slideSrc} />
       <Header as={"h3"}>Recording:</Header>
       <Video src={props.videoSrc} />

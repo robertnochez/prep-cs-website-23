@@ -61,7 +61,7 @@
   },
   {
     "lessonNumber": "8",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson8",
     "topic": "Lambda Expressions",
     "folderLocation": "./prepDownloads/*******",
