@@ -13,11 +13,11 @@ function Lesson(props) {
     <div>
       <MainNav />
       <Header as={"h1"}>{props.header}</Header>
-      {/* <a href={props.lessonDownload} download>
+      <a href={props.lessonDownload} download>
         <Button basic color="blue">
-          Download Lesson
+          Download Lesson Folder
         </Button>
-      </a> */}
+      </a>
       <Header as={"h3"}>Description:</Header>
       <Header as={"h4"}>{props.description}</Header>
       <Header as={"h3"}>
