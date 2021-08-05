@@ -36,7 +36,7 @@ function Footer(props) {
             <Grid.Column width={4}></Grid.Column>
             <Grid.Column width={5} textAlign={"right"}>
               <Header as="h6">
-                Learning Hub has no official affiliation with UC Berkeley.
+                CS Central has no official affiliation with UC Berkeley.
               </Header>
             </Grid.Column>
             <Grid.Column width={1}></Grid.Column>
