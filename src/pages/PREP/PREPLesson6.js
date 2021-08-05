@@ -5,23 +5,23 @@ import CodeBlock from "../../components/CodeBlock";
 import { Header } from "semantic-ui-react";
 
 function PREPLesson6() {
-    return (
-      <>
-        <PREPLesson
-          header="Iterables and the 'For' Loop"
-          description="What are iterables? What are the different types of iterables? Today we will discuss for loops and when
+  return (
+    <>
+      <PREPLesson
+        header="Iterables and the 'For' Loop"
+        description="What are iterables? What are the different types of iterables? Today we will discuss for loops and when
           to use them instead of while loops."
-          slideSrc="https://docs.google.com/presentation/d/e/2PACX-1vRjODe7bzL9NYyw9p-EyNZJ6lFu4CV0gzFQS0vjxICy3aeVsvqIc3BsahWS3frP9-SPm_A5qMt_SARL/embed?start=false&loop=false&delayms=3000" 
-          prevLesson={null}
-          nextLesson=""
-          videoSrc="https://www.youtube.com/embed/BKh9iRQQDxM"
-          slideLink={`https://docs.google.com/presentation/d/1DyzrfbdbxW_4RtJQ1B48QXbIDuxh0fkmVJSJzgY2SBk/edit?usp=sharing`}
-          lessonDownload="./prepDownloads/prep_lesson6.zip"
-        >
-          
-          <Header as={"h3"}>Practice Problem Solutions:</Header>
-      
-          <CodeBlock code={`
+        slideSrc="https://docs.google.com/presentation/d/e/2PACX-1vRjODe7bzL9NYyw9p-EyNZJ6lFu4CV0gzFQS0vjxICy3aeVsvqIc3BsahWS3frP9-SPm_A5qMt_SARL/embed?start=false&loop=false&delayms=3000"
+        prevLesson={null}
+        nextLesson=""
+        videoSrc="https://www.youtube.com/embed/BKh9iRQQDxM"
+        slideLink={`https://docs.google.com/presentation/d/1DyzrfbdbxW_4RtJQ1B48QXbIDuxh0fkmVJSJzgY2SBk/edit?usp=sharing`}
+        lessonDownload="./prepDownloads/prep_lesson6.zip"
+      >
+        <Header as={"h3"}>Practice Problem Solutions:</Header>
+
+        <CodeBlock
+          code={`
 ##############################################
 ######### PRACTICE PROBLEM SOLUTIONS #########
 ##############################################
@@ -108,11 +108,11 @@ def unzip_dict(d):
         lst.append(tup)
     return lst
 
-`} />
-        </PREPLesson>
-      
-      </>
-    )
+`}
+        />
+      </PREPLesson>
+    </>
+  );
 }
 
 export default PREPLesson6;

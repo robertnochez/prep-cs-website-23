@@ -64,16 +64,15 @@
     "disabled": false,
     "path": "/prepcs-lesson8",
     "topic": "Lambda Expressions",
-    "folderLocation": "./prepDownloads/*******",
-    "folderName": "lesson8",
+    "folderName": "None Today!",
     "additionalInfo": "Lambda Expressions, HOF simplification."
   },
   {
     "lessonNumber": "9",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson9",
     "topic": "Recursion",
-    "folderLocation": "./prepDownloads/*******",
+    "folderLocation": "./prepDownloads/prep_lesson9.zip",
     "folderName": "lesson9",
     "additionalInfo": "Recursion: factorial, fibonacci."
   },
