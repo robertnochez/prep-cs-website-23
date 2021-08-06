@@ -28,9 +28,6 @@ class Calendar extends React.Component {
                 <a href={row.folderLocation} download>
                   {row.folderName}
                 </a>
-                <a href={row.solutionsFolderLocation} download>
-                  {row.solutionsFolderName}
-                </a>
               </>
             )}
           </Table.Cell>

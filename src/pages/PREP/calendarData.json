@@ -75,8 +75,6 @@
     "folderLocation": "./prepDownloads/prep_lesson9.zip",
     "folderName": "lesson9",
     "additionalInfo": "Recursion: factorial, fibonacci.",
-    "solutionsFolderLocation" : "./prepDownloads/prep_lesson9solns.zip",
-    "solutionsFolderName" : "(solutions)"
   },
   {
     "lessonNumber": "10",
