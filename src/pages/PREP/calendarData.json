@@ -96,11 +96,10 @@
   },
   {
     "lessonNumber": "12",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
-    "folderLocation": "./prepDownloads/*******",
-    "folderName": "lesson12",
+    "folderName": "None Today!",
     "additionalInfo": "Data abstraction, trees."
   },
   {
