@@ -12,6 +12,7 @@ function PREPLesson12() {
           prevLesson={null}
           nextLesson=""
           slideLink="https://docs.google.com/presentation/d/1c7hLPkfoiuhXeJeaTAF5VgzkQXh1kE_MHZVnjZ0_UHE/edit?usp=sharing"
+          videoSrc={`https://www.youtube.com/embed/qcvqpQB-r7c`}
         />
     )
 }
