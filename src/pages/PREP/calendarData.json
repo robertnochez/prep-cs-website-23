@@ -87,20 +87,19 @@
   },
   {
     "lessonNumber": "11",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson11",
     "topic": "More Recursion Practice",
-    "folderLocation": "./prepDownloads/*******",
+    "folderLocation": "./prepDownloads/prep_lesson11.zip",
     "folderName": "lesson11",
     "additionalInfo": "Recursion practice problems."
   },
   {
     "lessonNumber": "12",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
-    "folderLocation": "./prepDownloads/*******",
-    "folderName": "lesson12",
+    "folderName": "None Today!",
     "additionalInfo": "Data abstraction, trees."
   },
   {
