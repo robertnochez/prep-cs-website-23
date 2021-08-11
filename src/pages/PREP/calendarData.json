@@ -104,7 +104,7 @@
   },
   {
     "lessonNumber": "13",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson13",
     "topic": "Summative Review 1",
     "folderLocation": "./prepDownloads/*******",
