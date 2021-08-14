@@ -80,14 +80,14 @@ export default class MainNav extends Component {
                   onClick={this.handleItemClick}
                 /> */}
 
-                {/* <Menu.Item
+                <Menu.Item
                   as={Link}
-                  to="/contact"
-                  name="Contact"
-                  content="Contact"
-                  active={activeItem === "Contact"}
+                  to="/about"
+                  name="About CS Central"
+                  content="About CS Central"
+                  active={activeItem === "About CS Central"}
                   onClick={this.handleItemClick}
-                /> */}
+                />
 
                 {/* <Menu.Item
                   as={Link}
