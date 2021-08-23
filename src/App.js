@@ -4,7 +4,7 @@ import MainLandingPage from "./pages/MainLandingPage";
 import WMCodeInfo from "./pages/WMCodeInfo";
 import PREPCSInfo from "./pages/PREPCSInfo";
 import SampleLesson from "./pages/SampleLesson";
-import Contact from "./pages/Contact";
+import About from "./pages/About";
 import Practice from "./pages/Practice";
 
 import LoginModal from "./components/LoginModal";
@@ -86,8 +86,8 @@ function App() {
         <Route path="/sample-lesson">
           <SampleLesson />
         </Route>
-        <Route path="/contact">
-          <Contact />
+        <Route path="/about">
+          <About />
         </Route>
         <Route path="/practice">
           <Practice />
