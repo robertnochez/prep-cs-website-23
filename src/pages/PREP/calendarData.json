@@ -9,7 +9,7 @@
   },
   {
     "lessonNumber": "2",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson2",
     "topic": "Python Syntax",
     "folderName": "No Folder Today :)",
@@ -17,7 +17,7 @@
   },
   {
     "lessonNumber": "3",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson3",
     "topic": "Functions and If-Statements",
     "folderName": "No Folder Today :)",
@@ -25,7 +25,7 @@
   },
   {
     "lessonNumber": "4",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson4",
     "topic": "Control",
     "folderLocation": "./prepDownloads/prep_lesson4.zip",
@@ -34,7 +34,7 @@
   },
   {
     "lessonNumber": "5",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson5",
     "topic": "Control: The 'While' Loop",
     "folderLocation": "./prepDownloads/prep_lesson5.zip",
@@ -43,7 +43,7 @@
   },
   {
     "lessonNumber": "6",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson6",
     "topic": "Iterables and the 'For' Loop",
     "folderLocation": "./prepDownloads/prep_lesson6.zip",
@@ -52,7 +52,7 @@
   },
   {
     "lessonNumber": "7",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson7",
     "topic": "Higher-Order Functions",
     "folderLocation": "./prepDownloads/prep_lesson7.zip",
@@ -61,7 +61,7 @@
   },
   {
     "lessonNumber": "8",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson8",
     "topic": "Lambda Expressions",
     "folderName": "None Today!",
@@ -69,7 +69,7 @@
   },
   {
     "lessonNumber": "9",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson9",
     "topic": "Recursion",
     "folderLocation": "./prepDownloads/prep_lesson9.zip",
@@ -78,7 +78,7 @@
   },
   {
     "lessonNumber": "10",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson10",
     "topic": "Recursion Practice",
     "folderLocation": "./prepDownloads/prep_lesson10.zip",
@@ -87,7 +87,7 @@
   },
   {
     "lessonNumber": "11",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson11",
     "topic": "More Recursion Practice",
     "folderLocation": "./prepDownloads/prep_lesson11.zip",
@@ -96,7 +96,7 @@
   },
   {
     "lessonNumber": "12",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
     "folderName": "None Today!",
@@ -104,7 +104,7 @@
   },
   {
     "lessonNumber": "13",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson13",
     "topic": "Summative Review 1",
     "folderName": "None",
@@ -112,7 +112,7 @@
   },
   {
     "lessonNumber": "14",
-    "disabled": false,
+    "disabled": true,
     "path": "/prepcs-lesson14",
     "topic": "Summative Review 2",
     "folderName": "False",

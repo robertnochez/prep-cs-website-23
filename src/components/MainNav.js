@@ -53,14 +53,6 @@ export default class MainNav extends Component {
               </Menu.Item>
 
               <Menu.Menu position="right">
-                <Menu.Item
-                  as={Link}
-                  to="/wmcode"
-                  name="WMCode"
-                  content="WMCode"
-                  active={activeItem === "WMCode"}
-                  onClick={this.handleItemClick}
-                />
 
                 <Menu.Item
                   as={Link}

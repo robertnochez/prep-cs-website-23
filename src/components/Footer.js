@@ -15,11 +15,6 @@ function Footer(props) {
                 <Header as={"h4"}>Home</Header>
               </Link>
             </Grid.Column>
-            <Grid.Column width={6}>
-              <Link to="/wmcode">
-                <Header as={"h4"}>WMCode</Header>
-              </Link>
-            </Grid.Column>
             <Grid.Column width={5}>
               <Link to="/prepcs">
                 <Header as={"h4"}>PREP CS</Header>
@@ -30,7 +25,7 @@ function Footer(props) {
             <Grid.Column width={1}></Grid.Column>
             <Grid.Column width={5} textAlign={"left"}>
               <Header as="h6">
-                Jesus Villalobos and Cristian Moran, 2021.
+                Destiny Luong and Vincent Lee, 2022; Jesus Villalobos and Cristian Moran, 2021.
               </Header>
             </Grid.Column>
             <Grid.Column width={4}></Grid.Column>

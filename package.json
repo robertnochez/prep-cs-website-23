@@ -49,7 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^6.1.2",
+    "@craco/craco": "^6.4.5",
     "@semantic-ui-react/craco-less": "^1.2.1",
     "gh-pages": "^3.2.3",
     "semantic-ui-less": "^2.4.1"

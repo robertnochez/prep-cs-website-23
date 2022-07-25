@@ -47,7 +47,7 @@ function About() {
               </Header>
               <p>
                 We are a group of undergraduate agents of change. Together,
-                Jesus, Cristian and Karen developed curriculum to make CS
+                Destiny, Marcos and Vincent developed curriculum to make CS
                 Central a valuable resource for minority students to easily
                 transition into their post-secondary computer science careers.
               </p>

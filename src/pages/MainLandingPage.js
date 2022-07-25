@@ -65,38 +65,6 @@ function MainLandingPage(props) {
       />
 
       <div style={{ paddingTop: 100, paddingBottom: 100 }}>
-        <div
-          style={{
-            paddingTop: 35,
-            paddingBottom: 35,
-          }}
-        >
-          <Grid stackable padded textAlign={"center"}>
-            <Grid.Row>
-              <Icon
-                name={"student"}
-                size={"massive"}
-                color={"blue"}
-                inverted
-                circular
-              ></Icon>
-            </Grid.Row>
-            <Grid.Row>
-              <Header as="h1">
-                <b>WMCode</b>
-              </Header>
-            </Grid.Row>
-            <Grid.Row>
-              <Grid.Column width={8}>
-                WMCode is an introduction-to-computer-science course taught in
-                Richmond, CA to underserved high school students. For the
-                majority of these students, CS Central is their first
-                interaction with computer science, so we strive to inspire them
-                to pursue a STEM or computer science field.
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
-        </div>
 
         <div
           style={{
