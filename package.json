@@ -1,8 +1,8 @@
 {
-  "name": "cs-central",
+  "name": "cs-central-22",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jesus-villalobos.github.io/cs-central",
+  "homepage": "http://destinyluong.github.io/cs-central-22",
   "proxy": "http://localhost/5000",
   "dependencies": {
     "@artsy/fresnel": "^1.6.0",
