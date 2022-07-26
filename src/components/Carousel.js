@@ -64,24 +64,16 @@ class Carousel extends React.Component {
           anything else!
         </p>
         <p>
-          <b>Karen's OH:</b> Mondays and Wednesdays, 5-6pm.
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://berkeley.zoom.us/j/92460458306?pwd=RVlJN0lLU29JNzcySzFVTzFNd1BNdz09"
-          >
-            JOIN MEETING
-          </a>
+          <b>Marcos's OH:</b> TBD
         </p>
         <p>
-          <b>Cristian's OH:</b> Tuesdays and Thursdays, 5-6pm.
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://berkeley.zoom.us/j/99662937200"
-          >
-            JOIN MEETING
-          </a>
+          <b>Vincent's OH:</b> TBD
+        </p>
+        <p>
+          <b>Destiny's OH:</b> TBD
+        </p>
+        <p>
+          <b>Laila's OH:</b> TBD
         </p>
       </div>,
     ];
