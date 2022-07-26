@@ -8,35 +8,14 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "3",
+      activeItem: "0",
       activePage: [
         <div>
           <Header as={"h3"}>
             <b>Practice Problem Solutions</b>
           </Header>
           <p>
-            Moving forward, solutions to practice problems will be posted on
-            their respective page the night of the lesson. For example, the
-            solutions to Lesson 7 practice problems are posted the evening of
-            August 2nd.
-          </p>
-          <p>
-            While we may get to cover some problems during the lessons, we
-            cannot guarantee that we will always have time. So, if you have
-            questions or would like to work out the problems with your peers or
-            the instructors, please drop by Office Hours. We are more than happy
-            to help you figure out the problems and answer any questions you may
-            have :)
-          </p>
-          <p>You can find the links to OH on the slide 2 of this section!!</p>
-          <p>
-            <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
-          </p>
-          <p>
-            <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
-          </p>
-          <p>
-            <Link to="/prepcs-lesson9">Lesson 9 Solutions</Link>
+            Coming soon :)
           </p>
         </div>,
       ],
@@ -151,21 +130,21 @@ class Carousel extends React.Component {
               <div class="pagination">
                 <Menu pagination size={"mini"}>
                   <Menu.Item
-                    disabled={false}
+                    disabled={true}
                     name="1"
                     page={page1}
                     active={activeItem === "1"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={false}
+                    disabled={true}
                     name="2"
                     page={page2}
                     active={activeItem === "2"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={false}
+                    disabled={true}
                     name="3"
                     page={page3}
                     active={activeItem === "3"}
