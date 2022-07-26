@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import DestinyBio from "../images/DestinyBio.jpg";
 import VincentBio from "../images/VincentBio.jpg";
 import MarcosBio from "../images/MarcosBio.jpg";
-import LailaBio from "../images/SampleLesson.png";
+import LailaBio from "../images/LailaBio.jpg";
 
 import { Card, Icon, Image, Grid, Header } from "semantic-ui-react";
 import TitleAndImageBlock from "../components/TitleAndImageBlock";
@@ -138,7 +138,9 @@ function About() {
                 <Card.Header>Laila Walker</Card.Header>
                 <Card.Meta>PREP CS Curriculum Co-Writer</Card.Meta>
                 <Card.Description>
-                 
+                 Hi, my name is Laila Walker and I am a rising sophomore studying computer science and
+                 data science through the College of Letters and Science. For fun, I like to watch movies, 
+                 hike, and travel around the Bay to see friends. 
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
