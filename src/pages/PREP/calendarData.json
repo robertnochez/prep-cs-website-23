@@ -9,7 +9,7 @@
   },
   {
     "lessonNumber": "2",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson2",
     "topic": "Python Syntax",
     "folderName": "No Folder Today :)",
