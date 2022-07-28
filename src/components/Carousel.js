@@ -8,7 +8,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "0",
+      activeItem: "2",
       activePage: [
         <div>
           <Header as={"h3"}>
@@ -56,7 +56,7 @@ class Carousel extends React.Component {
           <b>Office Hours</b>
         </Header>
         <p>
-          As you may have already seen in your emails, we will be holding office
+          As you have already heard, we will be holding office
           hours throughout the week to make sure you have a space to ask any
           questions you have, and have them answered. Current dates and times
           are listed below, and we may add more times if we see office hours are
@@ -64,16 +64,16 @@ class Carousel extends React.Component {
           anything else!
         </p>
         <p>
-          <b>Marcos's OH:</b> TBD
+          <b>Marcos's OH:</b> THUR 7-8 PM
         </p>
         <p>
-          <b>Vincent's OH:</b> TBD
+          <b>Vincent's OH:</b> TUES 7-8 PM
         </p>
         <p>
-          <b>Destiny's OH:</b> TBD
+          <b>Destiny's OH:</b> TUES 7-8 PM
         </p>
         <p>
-          <b>Laila's OH:</b> TBD
+          <b>Laila's OH:</b> THURS 7-8 PM
         </p>
       </div>,
     ];
