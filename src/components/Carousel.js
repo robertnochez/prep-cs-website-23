@@ -8,7 +8,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "0",
+      activeItem: "3",
       activePage: [
         <div>
           <Header as={"h3"}>
@@ -62,6 +62,9 @@ class Carousel extends React.Component {
           are listed below, and we may add more times if we see office hours are
           popular! Drop by to ask anything ... CS-related, Cal-related, or
           anything else!
+        </p>
+        <p>
+          <b>Office Hours takes place in Unit 3 Lounge!</b>
         </p>
         <p>
           <b>Marcos's OH:</b> THUR 7-8 PM
