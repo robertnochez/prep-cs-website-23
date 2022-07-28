@@ -17,11 +17,11 @@
   },
   {
     "lessonNumber": "3",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson3",
-    "topic": "Functions and If-Statements",
+    "topic": "Operators & Functions",
     "folderName": "No Folder Today :)",
-    "additionalInfo": "Built in functions, assignment, custom functions, if statements"
+    "additionalInfo": "Built in functions, assignment, custom functions"
   },
   {
     "lessonNumber": "4",
