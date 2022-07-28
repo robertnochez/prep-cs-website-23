@@ -8,7 +8,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "2",
+      activeItem: "0",
       activePage: [
         <div>
           <Header as={"h3"}>
@@ -122,14 +122,14 @@ class Carousel extends React.Component {
               <div class="pagination">
                 <Menu pagination size={"mini"}>
                   <Menu.Item
-                    disabled={true}
+                    disabled={false}
                     name="1"
                     page={page1}
                     active={activeItem === "1"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={true}
+                    disabled={false}
                     name="2"
                     page={page2}
                     active={activeItem === "2"}
