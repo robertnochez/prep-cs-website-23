@@ -153,7 +153,7 @@ class Carousel extends React.Component {
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={true}
+                    disabled={false}
                     name="3"
                     page={page3}
                     active={activeItem === "3"}
