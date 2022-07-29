@@ -25,7 +25,7 @@
   },
   {
     "lessonNumber": "4",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson4",
     "topic": "Control",
     "folderLocation": "./prepDownloads/prep_lesson4.zip",
