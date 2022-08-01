@@ -34,12 +34,11 @@
   },
   {
     "lessonNumber": "5",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson5",
-    "topic": "Control: The 'While' Loop",
-    "folderLocation": "./prepDownloads/prep_lesson5.zip",
-    "folderName": "lesson5",
-    "additionalInfo": "The while loop."
+    "topic": "Organizing Information",
+    "folderName": "No Folder Today :)",
+    "additionalInfo": "Lists, Tuples, and String Manipulation"
   },
   {
     "lessonNumber": "6",
