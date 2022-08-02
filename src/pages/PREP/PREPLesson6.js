@@ -11,7 +11,7 @@ function PREPLesson6() {
         header="Iterables and the 'For' Loop"
         description="What are iterables? What are the different types of iterables? Today we will discuss for loops and when
           to use them instead of while loops."
-        slideSrc="https://docs.google.com/presentation/d/1DHNrBRLOOGrodgbjH5KAMgr_L24ts0Y9qQGjjq8qNDQ/edit?usp=sharing/embed?start=false&loop=false&delayms=3000"
+        slideSrc="https://docs.google.com/presentation/d/1DHNrBRLOOGrodgbjH5KAMgr_L24ts0Y9qQGjjq8qNDQ/embed?start=false&loop=false&delayms=3000"
         prevLesson={null}
         nextLesson=""
         videoSrc=""
