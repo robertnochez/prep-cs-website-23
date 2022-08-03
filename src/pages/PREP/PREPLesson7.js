@@ -17,4 +17,4 @@ function PREPLesson7() {
   );
 }
 
-export default PREPLesson7;s
+export default PREPLesson7;
