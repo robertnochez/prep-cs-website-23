@@ -32,10 +32,10 @@ class Carousel extends React.Component {
           Solutions to Lesson 4 HW Problems are on Lesson 4 - Controls!
         </p>
         <p>
-        <a href="/cs-central/prepcs-lesson6">Lesson 4 Solutions</a>
+        <Link href="/cs-central/prepcs-lesson4">Lesson 4 Solutions</Link>
         </p>
         <p>
-        <a href="/cs-central/prepcs-lesson6">Lesson 6 Solutions</a>
+        <Link href="/cs-central/prepcs-lesson6">Lesson 6 Solutions</Link>
         </p>
         </div>,
       ],
@@ -197,6 +197,7 @@ class Carousel extends React.Component {
                   <Menu.Item
                     disabled = {false}
                     name="4"
+                    page={page4}
                     active={activeItem === "4"}
                     onClick={this.handleItemClick}
                   />
