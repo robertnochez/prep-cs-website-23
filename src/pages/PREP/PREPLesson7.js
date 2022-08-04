@@ -2,6 +2,7 @@ import React from "react";
 
 import PREPLesson from "./Lesson";
 import CodeBlock from "../../components/CodeBlock";
+import { Header } from "semantic-ui-react";
 
 function PREPLesson7() {
   return (
@@ -13,8 +14,8 @@ function PREPLesson7() {
       nextLesson=""
       slideLink={`https://docs.google.com/presentation/d/1b1MCGHoPYvsqHGBZb6d6zMHUBdF6AY6vF_lAdZLq0IA/edit?usp=sharing`}
     >
-       <Header as={"h3"}>Practice Problem Solutions:</Header>
-        <CodeBlock
+    <Header as={"h3"}>Practice Problem Solutions:</Header>
+    <CodeBlock
           code={`
           
 ######################################################
