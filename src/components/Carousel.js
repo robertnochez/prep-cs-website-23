@@ -29,13 +29,13 @@ class Carousel extends React.Component {
         </p>
         <p>You can find the links to OH on the slide 2 of this section!!</p>
         <p>
-          Solutions to Lesson 4 HW Problems are on Lesson 4 - Controls!
-        </p>
-        <p>
         <Link to="/prepcs-lesson4">Lesson 4 Solutions</Link>
         </p>
         <p>
         <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
+        </p>
+        <p>
+        <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
         </p>
         </div>,
       ],

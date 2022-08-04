@@ -60,11 +60,11 @@
   },
   {
     "lessonNumber": "8",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson8",
-    "topic": "Lambda Expressions",
-    "folderName": "None Today!",
-    "additionalInfo": "Lambda Expressions, HOF simplification."
+    "topic": "Linked List",
+    "folderName": "lesson8",
+    "additionalInfo": "Classes and Linked Lists"
   },
   {
     "lessonNumber": "9",
