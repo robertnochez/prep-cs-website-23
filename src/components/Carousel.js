@@ -38,7 +38,7 @@ class Carousel extends React.Component {
         <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
         </p>
         <p>
-        <Link to="/prepcs-lesson7">Lesson 8 Solutions</Link>
+        <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
         </p>
         </div>,
       ],

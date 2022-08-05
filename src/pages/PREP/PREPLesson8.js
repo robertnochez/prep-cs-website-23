@@ -14,6 +14,7 @@ function PREPLesson8() {
           nextLesson=""
           videoSrc={``}
           slideLink={`https://docs.google.com/presentation/d/1r1rrPoxyWcSBMTdq337c7dg6M2CoJfmueWqLSjW4g4M/edit?usp=sharing`}
+          lessonDownload="./prepDownloads/prep_lesson8.zip"
         >
       <Header as={"h3"}>Practice Problem Solutions:</Header>
 
