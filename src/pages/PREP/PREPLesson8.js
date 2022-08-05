@@ -1,6 +1,8 @@
 import React from "react";
 
 import PREPLesson from "./Lesson";
+import CodeBlock from "../../components/CodeBlock";
+import { Header } from "semantic-ui-react";
 
 function PREPLesson8() {
   return (
