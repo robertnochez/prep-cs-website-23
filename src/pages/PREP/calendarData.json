@@ -69,7 +69,7 @@
   },
   {
     "lessonNumber": "9",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson9",
     "topic": "Lambda & HOF",
     "folderLocation": "./prepDownloads/Spotify.py",
