@@ -71,10 +71,10 @@
     "lessonNumber": "9",
     "disabled": true,
     "path": "/prepcs-lesson9",
-    "topic": "Recursion",
-    "folderLocation": "./prepDownloads/prep_lesson9.zip",
+    "topic": "Lambda & HOF",
+    "folderLocation": "./prepDownloads/Spotify.py",
     "folderName": "lesson9",
-    "additionalInfo": "Recursion: factorial, fibonacci."
+    "additionalInfo": "lambda and hof"
   },
   {
     "lessonNumber": "10",
