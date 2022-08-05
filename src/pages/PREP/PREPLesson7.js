@@ -13,6 +13,7 @@ function PREPLesson7() {
       prevLesson={null}
       nextLesson=""
       slideLink={`https://docs.google.com/presentation/d/1b1MCGHoPYvsqHGBZb6d6zMHUBdF6AY6vF_lAdZLq0IA/edit?usp=sharing`}
+      lessonDownload="./prepDownloads/prep_lesson7.zip"
     >
     <Header as={"h3"}>Practice Problem Solutions:</Header>
     <CodeBlock
