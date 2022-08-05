@@ -12,9 +12,7 @@ function PREPLesson8() {
           nextLesson=""
           videoSrc={``}
           slideLink={`https://docs.google.com/presentation/d/1r1rrPoxyWcSBMTdq337c7dg6M2CoJfmueWqLSjW4g4M/edit?usp=sharing`}
-<<<<<<< HEAD
         >
-
       <Header as={"h3"}>Practice Problem Solutions:</Header>
 
 <CodeBlock
@@ -125,10 +123,6 @@ def reverseLst(linkedList):
 `} 
 />
         </PREPLesson>
-=======
-          lessonDownload="./prepDownloads/prep_lesson8.zip"
-        />
->>>>>>> 859d1097254dfdaabe031107cdb9941a3fe79033
     )
 }
 
