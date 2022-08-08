@@ -71,9 +71,10 @@
     "lessonNumber": "9",
     "disabled": false,
     "path": "/prepcs-lesson9",
-    "topic": "HOFs and Lambdas",
-    "folderName": "None Today!",
-    "additionalInfo": "Higher order functions and lambdas."
+    "topic": "Lambda & HOF",
+    "folderLocation": "./prepDownloads/Spotify.py",
+    "folderName": "lesson9",
+    "additionalInfo": "lambda and hof"
   },
   {
     "lessonNumber": "10",

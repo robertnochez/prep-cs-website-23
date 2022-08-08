@@ -67,7 +67,7 @@ function About() {
             <Card centered fluid>
               <Image src={VincentBio} wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Vincent Hong Lee</Card.Header>
+                <Card.Header>Vincent Lee</Card.Header>
                 <Card.Meta>
                   CS Central 22 Co-Site Admin,
                   PREP CS Curriculum Co-Writer
