@@ -77,7 +77,7 @@
   },
   {
     "lessonNumber": "10",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson10",
     "topic": "Recursion Practice",
     "folderLocation": "./prepDownloads/prep_lesson10.zip",

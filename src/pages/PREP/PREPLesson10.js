@@ -9,12 +9,12 @@ function PREPLesson10() {
           description="This is a day dedicated to extra recursion practice since practice is a very useful way to get a clear 
           understanding of things. We will talk about the Recursive Leap of Faith and further review practice problems which 
           require recursive solutions."
-          slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vTRlbGbTBh60VeI4P2Alf25MWV9sLqdIFuF0uQF9KWot049rqfQ0O0Ewn7G0dtAJ1QlGWxhbEM4U2le/embed?start=false&loop=false&delayms=3000`}
+          slideSrc={`https://docs.google.com/presentation/d/1sP262-5tTVqSEXDxZK0hj-uU9nkZls69yn5KUSArm1w/embed?start=false&loop=false&delayms=3000`}
           prevLesson={null}
           nextLesson=""
-          slideLink="https://docs.google.com/presentation/d/1odeBEYNATTknnwYUI_DjgX2Chw-1TiMpAFspaonqW0w/edit?usp=sharing"
+          slideLink="https://docs.google.com/presentation/d/1sP262-5tTVqSEXDxZK0hj-uU9nkZls69yn5KUSArm1w/edit?usp=sharing"
           lessonDownload="./prepDownloads/prep_lesson10.zip"
-          videoSrc={`https://www.youtube.com/embed/Z9_iOEqOnfU`}
+          videoSrc={``}
         />
     )
 }
