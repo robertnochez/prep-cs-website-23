@@ -40,6 +40,9 @@ class Carousel extends React.Component {
         <p>
         <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
         </p>
+        <p>
+        <Link to="/prepcs-lesson10">Lesson 10 Solutions</Link>
+        </p>
         </div>,
       ],
     };
@@ -139,7 +142,7 @@ class Carousel extends React.Component {
         </p>
         <p>
           <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
-            Lesson 9 In Class: Example 2.1</a>
+            Lesson 9 In Class: Example 2.2</a>
         </p>
       </div>,
     ];
@@ -174,6 +177,9 @@ class Carousel extends React.Component {
         </p>
         <p>
         <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
+        </p>
+        <p>
+        <Link to="/prepcs-lesson10">Lesson 10 Solutions</Link>
         </p>
         </div>,
     ];
