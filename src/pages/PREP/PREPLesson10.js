@@ -17,7 +17,7 @@ function PREPLesson10() {
           slideLink="https://docs.google.com/presentation/d/1sP262-5tTVqSEXDxZK0hj-uU9nkZls69yn5KUSArm1w/edit?usp=sharing"
           lessonDownload="./prepDownloads/prep_lesson10.zip"
           videoSrc={``}
-        />
+        >
         <Header as={"h3"}>Practice Problem Solutions:</Header>
 
         <CodeBlock
@@ -80,7 +80,8 @@ function PREPLesson10() {
               return helper(x - 1, y * x)
       return helper(n, 1)
   `} 
-        />
+  />
+      </PREPLesson>
     )
 }
 
