@@ -99,7 +99,8 @@
     "disabled": false,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
-    "folderName": "None Today!",
+    "folderLocation": "./prepDownloads/Tree.py",
+    "folderName": "lesson12",
     "additionalInfo": "Data abstraction, trees."
   },
   {
