@@ -17,10 +17,6 @@ function PREPLesson9() {
       lessonDownload="./prepDownloads/Spotify.py"
       videoSrc={``}
     >
-
-
-
-    
     </PREPLesson>
   );
 }

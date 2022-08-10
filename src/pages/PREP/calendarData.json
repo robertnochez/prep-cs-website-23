@@ -96,7 +96,7 @@
   },
   {
     "lessonNumber": "12",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
     "folderName": "None Today!",
