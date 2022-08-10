@@ -96,10 +96,10 @@
   },
   {
     "lessonNumber": "12",
-    "disabled": true,
-    "path": "/prepcs-lesson12",
+    "disabled": false,
+    "path": "cs-central/prepcs-lesson12",
     "topic": "Trees",
-    "folderName": "None Today!",
+    "folderName": "./prepDownloads/Tree.py",
     "additionalInfo": "Data abstraction, trees."
   },
   {
