@@ -105,11 +105,11 @@
   },
   {
     "lessonNumber": "13",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson13",
-    "topic": "Summative Review 1",
+    "topic": "Exam Practice and Wrap Up",
     "folderName": "None",
-    "additionalInfo": "Review of course topics, practice problems."
+    "additionalInfo": "Review of course topics, practice problems, and finally wrap up."
   },
   {
     "lessonNumber": "14",
