@@ -110,13 +110,5 @@
     "topic": "Exam Practice and Wrap Up",
     "folderName": "None",
     "additionalInfo": "Review of course topics, practice problems, and finally wrap up."
-  },
-  {
-    "lessonNumber": "14",
-    "disabled": true,
-    "path": "/prepcs-lesson14",
-    "topic": "Summative Review 2",
-    "folderName": "False",
-    "additionalInfo": "More review of course topics, practice problems, and ending remarks. We hope you enjoyed learning CS with us!"
   }
 ]
