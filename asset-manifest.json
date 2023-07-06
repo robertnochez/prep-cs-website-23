@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prep-cs-website-23/static/css/main.7f831702.chunk.css",
+    "main.css": "/prep-cs-website-23/static/css/main.59cdaf15.chunk.css",
     "main.js": "/prep-cs-website-23/static/js/main.b5a9db1f.chunk.js",
     "main.js.map": "/prep-cs-website-23/static/js/main.b5a9db1f.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.js": "/prep-cs-website-23/static/js/react-syntax-highlighter_languages_refractor_abap.bf4e57fb.chunk.js",
@@ -314,7 +314,7 @@
     "static/js/154.df848999.chunk.js.map": "/prep-cs-website-23/static/js/154.df848999.chunk.js.map",
     "index.html": "/prep-cs-website-23/index.html",
     "static/css/153.06e19d39.chunk.css.map": "/prep-cs-website-23/static/css/153.06e19d39.chunk.css.map",
-    "static/css/main.7f831702.chunk.css.map": "/prep-cs-website-23/static/css/main.7f831702.chunk.css.map",
+    "static/css/main.59cdaf15.chunk.css.map": "/prep-cs-website-23/static/css/main.59cdaf15.chunk.css.map",
     "static/js/153.e38ba318.chunk.js.LICENSE.txt": "/prep-cs-website-23/static/js/153.e38ba318.chunk.js.LICENSE.txt",
     "static/media/Contact.acb21bc4.png": "/prep-cs-website-23/static/media/Contact.acb21bc4.png",
     "static/media/DestinyBio.36797e9c.jpg": "/prep-cs-website-23/static/media/DestinyBio.36797e9c.jpg",
@@ -332,7 +332,7 @@
     "static/js/runtime-main.131fb710.js",
     "static/css/153.06e19d39.chunk.css",
     "static/js/153.e38ba318.chunk.js",
-    "static/css/main.7f831702.chunk.css",
+    "static/css/main.59cdaf15.chunk.css",
     "static/js/main.b5a9db1f.chunk.js"
   ]
 }
