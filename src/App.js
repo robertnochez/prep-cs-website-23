@@ -71,7 +71,7 @@ function App() {
   // https://www.cs.cmu.edu/~pattis/quotations.html
 
   return (
-    <Router basename="/cs-central">
+    <Router basename="/prep-cs-website-23">
       <Switch>
         {/* Handle routes to pages on front-end, with no authentification */}
         <Route exact path="/">
