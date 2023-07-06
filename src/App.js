@@ -61,6 +61,7 @@ function App() {
   //      Learning the answer---well, answers are for students. Questions are for thinkers."
   // R. Schank (in "The Connosseur's Guide to the Mind")
 
+  
   // "[teaching]is rather artificial. The world is complicated and messy, with lots of loose ends, and the
   //      teacher's job is to impose order on the confusion, to convert a chaotic set of episodes into a coherent narrative."
   // I. Stewart (in "Letters to a Young Mathematician")
