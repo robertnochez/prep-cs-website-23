@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index.css"; 
 
 import MainLandingPage from "./pages/MainLandingPage";
 import WMCodeInfo from "./pages/WMCodeInfo";
