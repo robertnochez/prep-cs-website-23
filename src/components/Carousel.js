@@ -46,9 +46,8 @@ class Carousel extends React.Component {
         </Header>
         <p>
           We're happy to have you here, and look forward to helping you be
-          successful! We're happy to have you here, and look forward to helping
-          you be successful! Feel free to explore the website and the available
-          materials. We will release materials at 6pm the day before they are
+          successful! Feel free to explore the website and the available
+          materials. We will release materials the night before the day they are
           going to be taught.
         </p>
         <p>
