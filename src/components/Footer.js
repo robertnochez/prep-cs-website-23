@@ -20,6 +20,11 @@ function Footer(props) {
                 <Header as={"h4"}>PREP CS</Header>
               </Link>
             </Grid.Column>
+            <Grid.Column width={5}>
+              <Link to="/about">
+                <Header as={"h4"}>About</Header>
+              </Link>
+            </Grid.Column>
           </Grid.Row>
           <Grid.Row>
             <Grid.Column width={1}></Grid.Column>

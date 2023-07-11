@@ -28,7 +28,7 @@ function MainLandingPage(props) {
         img={LandingPageImage}
         title="Welcome to PREP 2023 CS!"
         description="
-        An learning and preparation hub for students
+        A learning and preparation hub for students
         interested STEM, with a focus on Computer Science."
       />
 
