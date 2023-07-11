@@ -7,9 +7,7 @@ import QuoteBlock from "../components/QuoteBlock";
 import Footer from "../components/Footer";
 
 import DestinyBio from "../images/DestinyBio.jpg";
-import VincentBio from "../images/VincentBio.jpg";
-import MarcosBio from "../images/MarcosBio.jpg";
-import LailaBio from "../images/LailaBio.jpg";
+import RobertBio from "../images/robertBio.jpeg";
 
 import { Card, Icon, Image, Grid, Header } from "semantic-ui-react";
 import TitleAndImageBlock from "../components/TitleAndImageBlock";
@@ -65,21 +63,22 @@ function About() {
         <Grid.Row columns={2} centered>
           <Grid.Column width={5}>
             <Card centered fluid>
-              <Image src={VincentBio} wrapped ui={false} />
+              <Image src={RobertBio} wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Vincent Lee</Card.Header>
+                <Card.Header>Robert Nochez</Card.Header>
                 <Card.Meta>
                   CS Central 22 Co-Site Admin,
                   PREP CS Curriculum Co-Writer
                 </Card.Meta>
                 <Card.Description>
-                 Hi everyone! I'm a 4th year EECS major, with interests in computer systems and security. 
-                 Some of my interests include music and badminton.
+                Hello! My name is Robert Nochez and I am a rising senior majoring in EECS and minoring in Data Science. 
+                I am from Sacramento, California and my interests include backend development and mobile applications. 
+                Feel free to ask me about how to get involved on campus or for any CS questions!
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
                 <Icon name="mail outline" bordered />
-                vlee747 [at] berkeley [dot] edu
+                robertnochez [at] berkeley [dot] edu
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -103,49 +102,6 @@ function About() {
               <Card.Content extra>
                 <Icon name="mail outline" bordered />
                 duluong [at] berkeley [dot] edu
-              </Card.Content>
-            </Card>
-          </Grid.Column>
-        </Grid.Row>
-
-        <Grid.Row columns={2} centered>
-          <Grid.Column width={5}>
-            <Card centered fluid>
-              <Image src={MarcosBio} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Marcos Hernandez</Card.Header>
-                <Card.Meta>PREP CS Curriculum Co-Writer</Card.Meta>
-                <Card.Description>
-                Hello, I'm Marcos Hernandez, a second year student majoring in 
-                Electrical Engineering and Computer Sciences from Salinas, California. 
-                I am interested in pursuing a career in Software Engineering and meeting 
-                new people with similar interests, not just professional ones.
-                </Card.Description>
-              </Card.Content>
-              <Card.Content extra>
-                <Icon name="mail outline" bordered />
-                marcosh [at] berkeley [dot] edu{" "}
-              </Card.Content>
-            </Card>
-          </Grid.Column>
-
-          <Grid.Column width={2} />
-
-          <Grid.Column width={5}>
-            <Card centered fluid>
-              <Image src={LailaBio} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Laila Walker</Card.Header>
-                <Card.Meta>PREP CS Curriculum Co-Writer</Card.Meta>
-                <Card.Description>
-                 Hi, my name is Laila Walker and I am a rising sophomore studying computer science and
-                 data science through the College of Letters and Science. For fun, I like to watch movies, 
-                 hike, and travel around the Bay to see friends. 
-                </Card.Description>
-              </Card.Content>
-              <Card.Content extra>
-                <Icon name="mail outline" bordered />
-                lailawalker[at] berkeley [dot] edu
               </Card.Content>
             </Card>
           </Grid.Column>

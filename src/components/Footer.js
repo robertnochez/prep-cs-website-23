@@ -25,7 +25,7 @@ function Footer(props) {
             <Grid.Column width={1}></Grid.Column>
             <Grid.Column width={5} textAlign={"left"}>
               <Header as="h6">
-                Destiny Luong and Vincent Lee, 2022; Jesus Villalobos and Cristian Moran, 2021.
+                Robert Nochez and Destiny Luong; Destiny Luong and Vincent Lee, 2022; Jesus Villalobos and Cristian Moran, 2021.
               </Header>
             </Grid.Column>
             <Grid.Column width={4}></Grid.Column>
