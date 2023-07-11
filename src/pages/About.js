@@ -16,9 +16,8 @@ function About() {
   return (
     <div>
       <NavBar
-        title="About CS Central"
-        description="CS Central is a computer science initiative started by one 
-                      university student and advanced by a team."
+        title="About PREP"
+        description="The Pre-Engineering Program (PREP) is designed to help incoming students understand the rigors of Berkeley coursework."
         img={ContactImage}
       />
 
@@ -41,16 +40,16 @@ function About() {
           <Grid.Row>
             <Grid.Column verticalAlign={"middle"} textAlign={"left"}>
               <Header as="h1">
-                <b>Meet The CS Central Team</b>
+                <b>Meet The CS Primer Team</b>
               </Header>
               <p>
                 We are a group of undergraduate agents of change. Together,
-                Destiny, Marcos, Laila and Vincent developed curriculum to make CS
-                Central a valuable resource for minority students to easily
+                Destiny and Robert have developed a curriculum to make PREP CS Primer
+                a valuable resource for minority students to easily
                 transition into their post-secondary computer science careers.
               </p>
               <p>
-                Feel free to explore CS Central and discover some of our
+                Feel free to explore  and discover some of our
                 pedagogy within the lessons. You can read more about each one of
                 us below, and if you have any questions, feel free to reach out
                 to us! We will promptly get back to you!
@@ -67,8 +66,7 @@ function About() {
               <Card.Content>
                 <Card.Header>Robert Nochez</Card.Header>
                 <Card.Meta>
-                  CS Central 22 Co-Site Admin,
-                  PREP CS Curriculum Co-Writer
+                PREP 2023 CS Curriculum Co-Writer
                 </Card.Meta>
                 <Card.Description>
                 Hello! My name is Robert Nochez and I am a rising senior majoring in EECS and minoring in Data Science. 
@@ -78,7 +76,7 @@ function About() {
               </Card.Content>
               <Card.Content extra>
                 <Icon name="mail outline" bordered />
-                robertnochez [at] berkeley [dot] edu
+                robertnochez@berkeley.edu
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -91,7 +89,7 @@ function About() {
               <Card.Content>
                 <Card.Header>Destiny Luong</Card.Header>
                 <Card.Meta>
-                CS Central 22 Co-Site Admin, PREP CS Curriculum Co-Writer
+                PREP 2023 CS Curriculum Co-Writer
                 </Card.Meta>
                 <Card.Description>
                  Hey everyone! I'm Destiny, a rising junior interested in combining design and CS.
@@ -101,7 +99,7 @@ function About() {
               </Card.Content>
               <Card.Content extra>
                 <Icon name="mail outline" bordered />
-                duluong [at] berkeley [dot] edu
+                duluong@berkeley.edu
               </Card.Content>
             </Card>
           </Grid.Column>
