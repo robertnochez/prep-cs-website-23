@@ -11,39 +11,21 @@ class Carousel extends React.Component {
       activeItem: "1",
       activePage: [
         <div>
-          <Header as={"h3"}>
-          <b>Practice Problem Solutions</b>
+        <Header as={"h3"}>
+          <b>Welcome In!</b>
         </Header>
         <p>
-          Moving forward, solutions to practice problems will be posted on their
-          respective page the day after the lesson. For example, the solutions to
-          Lesson 4 practice problems are posted July 30.
+          We're happy to have you here, and look forward to helping you be
+          successful! We're happy to have you here, and look forward to helping
+          you be successful! Feel free to explore the website and the available
+          materials. We will release materials at 6pm the day before they are
+          going to be taught.
         </p>
         <p>
-          While we may get to cover some problems during the lessons, we cannot
-          guarantee that we will always have time. So, if you have questions or
-          would like to work out the problems with your peers or the
-          instructors, please drop by Office Hours. We are more than happy to
-          help you figure out the problems and answer any questions you may have
-          :)
+          Future announcements will be posted here, so be sure to check back
+          regularly!
         </p>
-        <p>You can find the links to OH on the slide 2 of this section!!</p>
-        <p>
-        <Link to="/prepcs-lesson4">Lesson 4 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson10">Lesson 10 Solutions</Link>
-        </p>
-        </div>,
+      </div>,
       ],
     };
   }
@@ -204,21 +186,21 @@ class Carousel extends React.Component {
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={false}
+                    disabled={true}
                     name="2"
                     page={page2}
                     active={activeItem === "2"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={false}
+                    disabled={true}
                     name="3"
                     page={page3}
                     active={activeItem === "3"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled = {false}
+                    disabled = {true}
                     name="4"
                     page={page4}
                     active={activeItem === "4"}

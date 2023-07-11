@@ -9,12 +9,13 @@ function PREPLesson1() {
       description="Hello everyone! Welcome to PREP CS 2022. Today, we'll introduce the CS instructors, show the set up
         for the class, and provide logistics. We will go over how to download Python, the text editor, and how to use the
         terminal to create folders and organize files."
-      slideSrc={`https://docs.google.com/presentation/d/1BAIKx_6XbXPcNkqdv66lljBvRONQEJ6FRVYRAuEvwiY/embed?start=false&loop=false&delayms=3000`}
+      slideSrc={`https://docs.google.com/presentation/d/1PeerTcxdVDkU-2OSMRO4XKfkFZPByEkt3Q--TLKxW28/embed?start=false&loop=false&delayms=3000`}
       prevLesson={null}
       nextLesson=""
       released={true}
       videoSrc=""
-      slideLink={`https://docs.google.com/presentation/d/1BAIKx_6XbXPcNkqdv66lljBvRONQEJ6FRVYRAuEvwiY/edit?usp=sharing`}
+      slideLink={`https://docs.google.com/presentation/d/1PeerTcxdVDkU-2OSMRO4XKfkFZPByEkt3Q--TLKxW28/edit?usp=sharing`}
+      
     />
   );
 }
