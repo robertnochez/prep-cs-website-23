@@ -26,9 +26,9 @@ function MainLandingPage(props) {
     <div>
       <NavBar
         img={LandingPageImage}
-        title="Welcome to CS Central!"
+        title="Welcome to PREP 2023 CS!"
         description="
-        An independent learning and preparation hub for students
+        A learning and preparation hub for students
         interested STEM, with a focus on Computer Science."
       />
 
@@ -54,19 +54,19 @@ function MainLandingPage(props) {
 
       <TitleAndImageBlock
         background={true}
-        firstTitle="About CS Central"
-        firstDescription="CS Central was started upon the firm belief that anyone 
+        firstTitle="About PREP CS"
+        firstDescription="PREP CS was started upon the firm belief that anyone 
           and everyone can learn to code, no matter their background. We are a group 
           of college students interested in recycling our success in computer science."
         secondTitle="Our Mission"
-        secondDescription="CS Central is determined to offer resources to aspiring computer 
+        secondDescription="PREP CS is determined to offer resources to aspiring computer 
           scientists. We want to inspire and empower students to build the future they want 
           to see, and will provide them with the support they need to get there."
       />
 
-      <div style={{ paddingTop: 100, paddingBottom: 100 }}>
+      {/* <div style={{ paddingTop: 100, paddingBottom: 100 }}>
 
-        <div
+      <div
           style={{
             paddingTop: 35,
             paddingBottom: 35,
@@ -96,7 +96,7 @@ function MainLandingPage(props) {
             </Grid.Row>
           </Grid>
         </div>
-      </div>
+      </div> */}
 
       {/* <TitleAndImageBlock
         firstTitle="The Future of LearningPlatform"

@@ -75,9 +75,9 @@ export default class MainNav extends Component {
                 <Menu.Item
                   as={Link}
                   to="/about"
-                  name="About CS Central"
-                  content="About CS Central"
-                  active={activeItem === "About CS Central"}
+                  name="About"
+                  content="About"
+                  active={activeItem === "About"}
                   onClick={this.handleItemClick}
                 />
 
