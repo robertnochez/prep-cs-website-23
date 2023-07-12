@@ -9,9 +9,9 @@
   },
   {
     "lessonNumber": "2",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson2",
-    "topic": "Python Syntax",
+    "topic": "Datatypes and Operands",
     "folderName": "No Folder Today :)",
     "additionalInfo": "Operators, operands, expressions, data types."
   },
