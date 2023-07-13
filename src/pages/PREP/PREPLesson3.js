@@ -8,11 +8,11 @@ function PREPLesson3() {
         header="Operators and Functions"
         description="Today's lesson will include how assignments are made. It will also focus on functions: their
         anatomy, how to write them, and when they are necessary."
-        slideSrc={`https://docs.google.com/presentation/d/1Y4DH-pf3h980B4mX3s5aRVDC6mKous-PfXryOGW9dr8/embed?start=false&loop=false&delayms=3000`}
+        slideSrc={`https://docs.google.com/presentation/d/e/2PACX-1vRQy89UwFtasnMriT4EXRwLJ90o8FlTjgFVqw2D1b_Cj1VkuB7NJmmoAgETvpB0nDTlwjeFigsEz7iO/pub?start=false&loop=false&delayms=3000`}
         prevLesson=""
         nextLesson=""
         videoSrc={''}
-        slideLink={`https://docs.google.com/presentation/d/1Y4DH-pf3h980B4mX3s5aRVDC6mKous-PfXryOGW9dr8/edit?usp=sharing`}
+        slideLink={`https://docs.google.com/presentation/d/17f4Hyo70rI9JVgS8WHwHVrM-AYXLirGiKTyUdDvdkho/edit?usp=sharing`}
         />
     )
 }
