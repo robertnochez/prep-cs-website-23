@@ -11,20 +11,27 @@ class Carousel extends React.Component {
       activeItem: "1",
       activePage: [
         <div>
-        <Header as={"h3"}>
-          <b>Welcome In!</b>
-        </Header>
-        <p>
-          We're happy to have you here, and look forward to helping you be
-          successful! Feel free to explore the website and the available
-          materials. We will release materials the night before the day they are
-          going to be taught.
-        </p>
-        <p>
-          Future announcements will be posted here, so be sure to check back
-          regularly!
-        </p>
-      </div>,
+          <Header as={"h3"}>
+          <b>Practice Problem Solutions</b>
+          </Header>
+          <p>
+            Moving forward, solutions to practice problems will be posted on their
+            respective page the day after the lesson. For example, the solutions to
+            Lesson 4 HW problems are posted July 15.
+          </p>
+          <p>
+            While we may get to cover some problems during the lessons, we cannot
+            guarantee that we will always have time. So, if you have questions or
+            would like to work out the problems with your peers or the
+            instructors, please drop by Office Hours. We are more than happy to
+            help you figure out the problems and answer any questions you may have
+            :)
+          </p>
+          <p>You can find the links to OH on the slide 2 of this section!!</p>
+          <p>
+          <Link to="/prepcs-lesson4">Lesson 4 Solutions</Link>
+          </p>
+        </div>,
       ],
     };
   }
@@ -70,19 +77,13 @@ class Carousel extends React.Component {
           anything else!
         </p>
         <p>
-          <b>Office Hours takes place in Unit 3 Lounge!</b>
+          <b>Office Hours takes place in Unit 3 Priestley Hall Lounge!</b>
         </p>
         <p>
-          <b>Marcos's OH:</b> THUR 7-8 PM
+          <b>Robert's OH:</b> Days TBA 7-8 PM
         </p>
         <p>
-          <b>Vincent's OH:</b> TUES 7-8 PM
-        </p>
-        <p>
-          <b>Destiny's OH:</b> TUES 7-8 PM
-        </p>
-        <p>
-          <b>Laila's OH:</b> THURS 7-8 PM
+          <b>Destiny's OH:</b> Days TBA 7-8 PM
         </p>
       </div>,
     ];
@@ -93,7 +94,7 @@ class Carousel extends React.Component {
           <b>Practice Problem Solutions</b>
         </Header>
         <p>
-          Solutions to Lesson 4 HW Problems are on Lesson 4 - Controls!
+         These are in-class practice problem solutiions! Solutions to Lesson 4 HW Problems are on Lesson 4 - Controls!
         </p>
         <p>
           <a href="https://pythontutor.com/render.html#code=x%20%3D%203%0Ay%20%3D%202%0Az%20%3D%20'six'%0A%0Adef%20divideTwo%28num1,%20num2%29%3A%0A%20%20%20%20return%20num2//%20num1%0A%0Az%20%3D%20x%20*%20y%0AfReturn%20%3D%20divideTwo%28x,%20z%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
@@ -120,7 +121,7 @@ class Carousel extends React.Component {
         <p>
           Moving forward, solutions to practice problems will be posted on their
           respective page the day after the lesson. For example, the solutions to
-          Lesson 4 practice problems are posted July 30.
+          Lesson 4 HW problems are posted July 15.
         </p>
         <p>
           While we may get to cover some problems during the lessons, we cannot
@@ -133,18 +134,6 @@ class Carousel extends React.Component {
         <p>You can find the links to OH on the slide 2 of this section!!</p>
         <p>
         <Link to="/prepcs-lesson4">Lesson 4 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
-        </p>
-        <p>
-        <Link to="/prepcs-lesson10">Lesson 10 Solutions</Link>
         </p>
         </div>,
     ];
@@ -169,14 +158,14 @@ class Carousel extends React.Component {
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={true}
+                    disabled={false}
                     name="2"
                     page={page2}
                     active={activeItem === "2"}
                     onClick={this.handleItemClick}
                   />
                   <Menu.Item
-                    disabled={true}
+                    disabled={false}
                     name="3"
                     page={page3}
                     active={activeItem === "3"}
@@ -220,6 +209,20 @@ class Carousel extends React.Component {
         <p>
           <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
             Lesson 9 In Class: Example 2.2</a>
+        </p>
+
+
+        <p>
+        <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
+        </p>
+        <p>
+        <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
+        </p>
+        <p>
+        <Link to="/prepcs-lesson8">Lesson 8 Solutions</Link>
+        </p>
+        <p>
+        <Link to="/prepcs-lesson10">Lesson 10 Solutions</Link>
         </p>
         */
 
