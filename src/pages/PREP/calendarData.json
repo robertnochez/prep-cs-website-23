@@ -34,7 +34,7 @@
   },
   {
     "lessonNumber": "5",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson5",
     "topic": "Organizing Information",
     "folderName": "No Folder Today :)",
