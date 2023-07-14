@@ -16,9 +16,8 @@ class Carousel extends React.Component {
         </Header>
         <p>
           We're happy to have you here, and look forward to helping you be
-          successful! We're happy to have you here, and look forward to helping
-          you be successful! Feel free to explore the website and the available
-          materials. We will release materials at 6pm the day before they are
+          successful! Feel free to explore the website and the available
+          materials. We will release materials the night before the day they are
           going to be taught.
         </p>
         <p>
@@ -109,22 +108,7 @@ class Carousel extends React.Component {
             Lesson 4 In Class: Example 3</a>
         </p>
 
-        <p>
-          <a href="https://pythontutor.com/visualize.html#code=class%20Link%3A%0A%20%20%20%20def%20__init__%28self,%20%20val,%20%20next%3DNone%29%3A%0A%20%20%20%20%20%20%20%20self%20.val%20%3D%20val%0A%20%20%20%20%20%20%20%20self.next%20%3D%20next%0Adef%20addEnd%28linkedLst,%20word%29%3A%0A%20%20%20%20head%20%3D%20linkedLst%0A%20%20%20%20curr%20%3D%20head%0A%20%20%20%20while%20curr.next%20!%3D%20None%3A%0A%20%20%20%20%20%20%20%20curr%20%3D%20curr.next%0A%20%20%20%20w%20%3D%20Link%28word%29%0A%20%20%20%20curr.next%20%3D%20w%0A%0AlinkedStory%20%3D%20Link%28'The',%20Link%28'Big',%20%20Link%28'Spongebob',%20Link%28'Said'%29%29%29%29%0AaddEnd%28linkedStory,%20'Hello'%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false" >
-            Lesson 8 In Class: Example 1</a>
-        </p>
-        <p>
-          <a href="https://pythontutor.com/render.html#code=class%20Link%3A%0A%20%20%20%20def%20__init__%28self,%20%20val,%20next%3DNone%29%3A%0A%20%20%20%20%20%20%20%20self.val%20%3D%20val%0A%20%20%20%20%20%20%20%20self.next%20%3D%20next%0Adef%20deleteBeg%28linkedLst%29%3A%0A%20%20%20%20tmp%20%3D%20linkedLst%0A%20%20%20%20linkedLst%20%3D%20linkedLst.next%20%0A%20%20%20%20tmp%20%3D%20None%20%0A%20%20%20%20return%20linkedLst%0A%0AlinkedStory%20%3D%20Link%28'The',%20Link%28'Big',%20%20Link%28'Spongebob',%20Link%28'Said'%29%29%29%29%0AdeleteBeg%28linkedStory%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
-            Lesson 8 In Class: Example 2</a>
-        </p>
-        <p>
-          <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%0Atemp%20%3D%20doubledArea%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
-            Lesson 9 In Class: Example 2.1</a>
-        </p>
-        <p>
-          <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
-            Lesson 9 In Class: Example 2.2</a>
-        </p>
+        
       </div>,
     ];
 
@@ -220,5 +204,23 @@ class Carousel extends React.Component {
     );
   }
 }
+/*
+<p>
+          <a href="https://pythontutor.com/visualize.html#code=class%20Link%3A%0A%20%20%20%20def%20__init__%28self,%20%20val,%20%20next%3DNone%29%3A%0A%20%20%20%20%20%20%20%20self%20.val%20%3D%20val%0A%20%20%20%20%20%20%20%20self.next%20%3D%20next%0Adef%20addEnd%28linkedLst,%20word%29%3A%0A%20%20%20%20head%20%3D%20linkedLst%0A%20%20%20%20curr%20%3D%20head%0A%20%20%20%20while%20curr.next%20!%3D%20None%3A%0A%20%20%20%20%20%20%20%20curr%20%3D%20curr.next%0A%20%20%20%20w%20%3D%20Link%28word%29%0A%20%20%20%20curr.next%20%3D%20w%0A%0AlinkedStory%20%3D%20Link%28'The',%20Link%28'Big',%20%20Link%28'Spongebob',%20Link%28'Said'%29%29%29%29%0AaddEnd%28linkedStory,%20'Hello'%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false" >
+            Lesson 8 In Class: Example 1</a>
+        </p>
+        <p>
+          <a href="https://pythontutor.com/render.html#code=class%20Link%3A%0A%20%20%20%20def%20__init__%28self,%20%20val,%20next%3DNone%29%3A%0A%20%20%20%20%20%20%20%20self.val%20%3D%20val%0A%20%20%20%20%20%20%20%20self.next%20%3D%20next%0Adef%20deleteBeg%28linkedLst%29%3A%0A%20%20%20%20tmp%20%3D%20linkedLst%0A%20%20%20%20linkedLst%20%3D%20linkedLst.next%20%0A%20%20%20%20tmp%20%3D%20None%20%0A%20%20%20%20return%20linkedLst%0A%0AlinkedStory%20%3D%20Link%28'The',%20Link%28'Big',%20%20Link%28'Spongebob',%20Link%28'Said'%29%29%29%29%0AdeleteBeg%28linkedStory%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+            Lesson 8 In Class: Example 2</a>
+        </p>
+        <p>
+          <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%0Atemp%20%3D%20doubledArea%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+            Lesson 9 In Class: Example 2.1</a>
+        </p>
+        <p>
+          <a href="https://pythontutor.com/visualize.html#code=multiLambda%20%3D%20lambda%20f,%20g%3A%20lambda%20x,%20y%3A%20f%28g%28x,%20y%29%29%0Aarea%20%3D%20lambda%20x,%20y%3A%20x*y%20%0Adouble%20%3D%20lambda%20num%3A%20num*2%0AdoubledArea%20%3D%20multiLambda%28double,%20area%29%2810,%202%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+            Lesson 9 In Class: Example 2.2</a>
+        </p>
+        */
 
 export default Carousel;
