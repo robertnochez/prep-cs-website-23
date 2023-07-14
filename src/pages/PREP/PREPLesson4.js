@@ -10,12 +10,12 @@ function PREPLesson4() {
           header="Control"
           description="This lesson expands on if-statements by adding on elif and else. After the examples of the if-elif-else 
           control block we will seek help from environment diagrams. "
-          slideSrc={`https://docs.google.com/presentation/d/1tYj55paUcDWMzwKnX1XXUodm_fFnL9AmHrTTpK7MgMk/embed?start=false&loop=false&delayms=3000`}
+          slideSrc={`https://docs.google.com/presentation/d/1e46Wl2pDMTqtcwZCtc9vldGDNGB0O3MSXZYeOvVRDA4/embed?start=false&loop=false&delayms=3000`}
           prevLesson={null}
           nextLesson=""
           videoSrc={``}
           lessonDownload="./prepDownloads/prep_lesson4.zip"
-          slideLink={`https://docs.google.com/presentation/d/1tYj55paUcDWMzwKnX1XXUodm_fFnL9AmHrTTpK7MgMk/edit?usp=sharing`}
+          slideLink={`https://docs.google.com/presentation/d/1e46Wl2pDMTqtcwZCtc9vldGDNGB0O3MSXZYeOvVRDA4/edit?usp=sharing`}
          >
         <Header as={"h3"}>Links to Environment Diagrams</Header>
         <a href="https://pythontutor.com/render.html#code=var%20%3D%203%0Adef%20foo%28bar%29%3A%0A%20%20%20%20var%20%3D%202%0A%20%20%20%20if%20bar%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20valid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20invalid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%0Adef%20hello%28world%29%3A%0A%20%20%20%20global%20var%0A%20%20%20%20var%20%3D%207%0A%20%20%20%20if%20%28world%29%3A%0A%20%20%20%20%20%20%20%20return%20var%0A%20%20%20%20elif%20world%20%3D%3D%208%3A%0A%20%20%20%20%20%20%20%20return%20%22world%20is%208%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20var%20%3D%207%0A%20%20%20%20%20%20%20%20return%20world%0A%20%0Adef%20go%28bears%29%3A%0A%20%20%20%20if%20bears%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20valid%22%0A%20%20%20%20elif%20bears%20%3D%3D%20var%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20var%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20return%20bears%0A%20%0Ax%20%3D%20foo%283%29%0Afoo%28None%29%0Ahello%288%29%0Ay%20%3D%20go%28%5B%5D%29%0Ago%2819%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
@@ -25,7 +25,13 @@ function PREPLesson4() {
 
       <Header as={"h3"}>Practice Problem Solutions:</Header>
 
-  <CodeBlock
+ 
+        </PREPLesson>
+  )
+        
+}
+/*
+ <CodeBlock
           code={`
 ##############################################
 ######### PRACTICE PROBLEM SOLUTIONS #########
@@ -77,10 +83,6 @@ def oddOrEven(x):
         return x * 3 + 4
 
 `}
-        /> 
-        </PREPLesson>
-  )
-        
-}
+        /> */
 
 export default PREPLesson4;
