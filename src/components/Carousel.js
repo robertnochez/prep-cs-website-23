@@ -8,7 +8,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "1",
+      activeItem: "4",
       activePage: [
         <div>
           <Header as={"h3"}>

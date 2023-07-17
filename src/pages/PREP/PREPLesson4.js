@@ -18,21 +18,12 @@ function PREPLesson4() {
           slideLink={`https://docs.google.com/presentation/d/1e46Wl2pDMTqtcwZCtc9vldGDNGB0O3MSXZYeOvVRDA4/edit?usp=sharing`}
          >
         <Header as={"h3"}>Links to Environment Diagrams</Header>
-        <Header as={"h3"}>Practice Problem Solutions:</Header>
-
- 
-        </PREPLesson>
-  )
-        
-}
-/*
- <a href="https://pythontutor.com/render.html#code=var%20%3D%203%0Adef%20foo%28bar%29%3A%0A%20%20%20%20var%20%3D%202%0A%20%20%20%20if%20bar%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20valid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20invalid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%0Adef%20hello%28world%29%3A%0A%20%20%20%20global%20var%0A%20%20%20%20var%20%3D%207%0A%20%20%20%20if%20%28world%29%3A%0A%20%20%20%20%20%20%20%20return%20var%0A%20%20%20%20elif%20world%20%3D%3D%208%3A%0A%20%20%20%20%20%20%20%20return%20%22world%20is%208%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20var%20%3D%207%0A%20%20%20%20%20%20%20%20return%20world%0A%20%0Adef%20go%28bears%29%3A%0A%20%20%20%20if%20bears%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20valid%22%0A%20%20%20%20elif%20bears%20%3D%3D%20var%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20var%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20return%20bears%0A%20%0Ax%20%3D%20foo%283%29%0Afoo%28None%29%0Ahello%288%29%0Ay%20%3D%20go%28%5B%5D%29%0Ago%2819%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+        <a href="https://pythontutor.com/render.html#code=var%20%3D%203%0Adef%20foo%28bar%29%3A%0A%20%20%20%20var%20%3D%202%0A%20%20%20%20if%20bar%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20valid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22bar%20is%20invalid%22%29%0A%20%20%20%20%20%20%20%20return%20bar%0A%20%20%20%0Adef%20hello%28world%29%3A%0A%20%20%20%20global%20var%0A%20%20%20%20var%20%3D%207%0A%20%20%20%20if%20%28world%29%3A%0A%20%20%20%20%20%20%20%20return%20var%0A%20%20%20%20elif%20world%20%3D%3D%208%3A%0A%20%20%20%20%20%20%20%20return%20%22world%20is%208%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20var%20%3D%207%0A%20%20%20%20%20%20%20%20return%20world%0A%20%0Adef%20go%28bears%29%3A%0A%20%20%20%20if%20bears%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20valid%22%0A%20%20%20%20elif%20bears%20%3D%3D%20var%3A%0A%20%20%20%20%20%20%20%20return%20%22bears%20is%20var%22%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20return%20bears%0A%20%0Ax%20%3D%20foo%283%29%0Afoo%28None%29%0Ahello%288%29%0Ay%20%3D%20go%28%5B%5D%29%0Ago%2819%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
           Medium.py Environment Diagram, </a>
-  <a href="https://pythontutor.com/render.html#code=from%20operator%20import%20add,%20sub,%20mul,%20mod%20%20%20%20%20%0A%0Ax,%20y%20%3D%20%22%22,%204%0A%0Adef%20hello%28world%29%3A%0A%20%20%20%20global%20add%20%20%20%20%20%20%20%20%20%20%23%20reference%20to%20global%20variable%20instead%20of%20local%0A%20%20%20%20if%20world%3A%0A%20%20%20%20%20%20%20%20add%20%3D%20sub%0A%20%20%20%20%20%20%20%20return%20we%28add%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20add%20%3D%20mul%0A%20%20%20%20%20%20%20%20return%20they%28add%29%0A%0Adef%20we%28outside%29%3A%0A%20%20%20%20global%20mul,%20mod%0A%20%20%20%20if%20not%20outside%20%3D%3D%20add%3A%0A%20%20%20%20%20%20%20%20mul%20%3D%20outside%0A%20%20%20%20%20%20%20%20return%20mul%0A%20%20%20%20elif%20outside%20%3D%3D%20mod%3A%0A%20%20%20%20%20%20%20%20mod%20%3D%20mul%0A%20%20%20%20%20%20%20%20return%20mod%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22We%20happy%20outside.%22%29%0A%20%20%20%20%20%20%20%20mod%20%3D%20outside%0A%20%20%20%20%20%20%20%20return%20mod%0A%0Adef%20they%28are_bears%29%3A%0A%20%20%20%20global%20sub%20%0A%20%20%20%20if%20not%20not%20not%20are_bears%20%3D%3D%20mod%3A%0A%20%20%20%20%20%20%20%20print%28%22GO%20BEARS%20OR%20GO%20HOME!%22%29%0A%20%20%20%20%20%20%20%20sub%20%3D%20are_bears%0A%20%20%20%20elif%20not%20not%20are_bears%20%3D%3D%20add%3A%0A%20%20%20%20%20%20%20%20print%28%22THIS%20IS%20BEAR%20TERRITORY!%22%29%0A%20%20%20%20%20%20%20%20sub%20%3D%20are_bears%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22This%20is%20the%20last%20statement%22%29%0A%20%20%20%20return%20sub%0A%0A%0Aop1%20%3D%20hello%28x%29%0Aop2%20%3D%20hello%28y%29%0A%0A%23%23%20TESTS%20%23%23%0Aprint%28op1%283,%205%29%29%0Aprint%28op2%2881,%204%29%29%0Aprint%28op1%28op2%283,%207%29,%2010%29%29%0Aprint%28add%284,%205%29%29%0Aprint%28sub%2820,%204%29%29%0Aprint%28mul%2835,%205%29%29%0Aprint%28mod%2840,%208%29%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
-          Hard.py Environment Diagram</a>
-
-
- <CodeBlock
+        <a href="https://pythontutor.com/render.html#code=from%20operator%20import%20add,%20sub,%20mul,%20mod%20%20%20%20%20%0A%0Ax,%20y%20%3D%20%22%22,%204%0A%0Adef%20hello%28world%29%3A%0A%20%20%20%20global%20add%20%20%20%20%20%20%20%20%20%20%23%20reference%20to%20global%20variable%20instead%20of%20local%0A%20%20%20%20if%20world%3A%0A%20%20%20%20%20%20%20%20add%20%3D%20sub%0A%20%20%20%20%20%20%20%20return%20we%28add%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20add%20%3D%20mul%0A%20%20%20%20%20%20%20%20return%20they%28add%29%0A%0Adef%20we%28outside%29%3A%0A%20%20%20%20global%20mul,%20mod%0A%20%20%20%20if%20not%20outside%20%3D%3D%20add%3A%0A%20%20%20%20%20%20%20%20mul%20%3D%20outside%0A%20%20%20%20%20%20%20%20return%20mul%0A%20%20%20%20elif%20outside%20%3D%3D%20mod%3A%0A%20%20%20%20%20%20%20%20mod%20%3D%20mul%0A%20%20%20%20%20%20%20%20return%20mod%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22We%20happy%20outside.%22%29%0A%20%20%20%20%20%20%20%20mod%20%3D%20outside%0A%20%20%20%20%20%20%20%20return%20mod%0A%0Adef%20they%28are_bears%29%3A%0A%20%20%20%20global%20sub%20%0A%20%20%20%20if%20not%20not%20not%20are_bears%20%3D%3D%20mod%3A%0A%20%20%20%20%20%20%20%20print%28%22GO%20BEARS%20OR%20GO%20HOME!%22%29%0A%20%20%20%20%20%20%20%20sub%20%3D%20are_bears%0A%20%20%20%20elif%20not%20not%20are_bears%20%3D%3D%20add%3A%0A%20%20%20%20%20%20%20%20print%28%22THIS%20IS%20BEAR%20TERRITORY!%22%29%0A%20%20%20%20%20%20%20%20sub%20%3D%20are_bears%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22This%20is%20the%20last%20statement%22%29%0A%20%20%20%20return%20sub%0A%0A%0Aop1%20%3D%20hello%28x%29%0Aop2%20%3D%20hello%28y%29%0A%0A%23%23%20TESTS%20%23%23%0Aprint%28op1%283,%205%29%29%0Aprint%28op2%2881,%204%29%29%0Aprint%28op1%28op2%283,%207%29,%2010%29%29%0Aprint%28add%284,%205%29%29%0Aprint%28sub%2820,%204%29%29%0Aprint%28mul%2835,%205%29%29%0Aprint%28mod%2840,%208%29%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+                Hard.py Environment Diagram</a>
+        <Header as={"h3"}>Practice Problem Solutions:</Header>
+        <CodeBlock
           code={`
 ##############################################
 ######### PRACTICE PROBLEM SOLUTIONS #########
@@ -84,6 +75,11 @@ def oddOrEven(x):
         return x * 3 + 4
 
 `}
-        /> */
+        />
+ 
+        </PREPLesson>
+  )
+        
+}
 
 export default PREPLesson4;
