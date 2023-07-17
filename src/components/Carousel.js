@@ -101,7 +101,7 @@ class Carousel extends React.Component {
             Lesson 4 In Class: Example 1</a>
         </p>
         <p>
-          <a href="https://pythontutor.com/render.html#code=def%20cubeNum%28x%29%3A%0A%20%20%20%20return%20x%20*%20squareNum%28x%29%0A%20%20%20%20%0Adef%20squareNum%28y%29%3A%0A%20%20%20%20return%20y%20*%20oneTimes%28y%29%0A%20%20%20%20%0Adef%20oneTimes%28z%29%3A%0A%20%20%20%20return%201%20*%20z%0A%20%20%20%20%0AcubeNum%284%29%3B&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+          <a href="https://pythontutor.com/python-debugger.html#code=def%20cubeNum%28x%29%3A%0A%20%20%20%20return%20x**3%0A%20%20%20%20%0Adef%20squareNum%28y%29%3A%0A%20%20%20%20return%20y**2%0A%20%20%20%20%0Adef%20oneTimes%28z%29%3A%0A%20%20%20%20return%20z*1%0A%20%20%20%20%0Ax%20%3D%20cubeNum%282%29%0Ay%20%3D%20squareNum%282%29%0AZ%20%3D%20x%20%2B%20y%0AoneTimes%20%3D%20oneTimes%28z%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
             Lesson 4 In Class: Example 2</a>
         </p>
         <p>
