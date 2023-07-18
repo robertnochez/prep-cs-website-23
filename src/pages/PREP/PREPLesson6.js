@@ -11,14 +11,20 @@ function PREPLesson6() {
         header="Iterables and the 'For' Loop"
         description="What are iterables? What are the different types of iterables? Today we will discuss for loops and when
           to use them instead of while loops."
-        slideSrc={`https://docs.google.com/presentation/d/1DHNrBRLOOGrodgbjH5KAMgr_L24ts0Y9qQGjjq8qNDQ/embed?start=false&loop=false&delayms=3000`}
+        slideSrc={`https://docs.google.com/presentation/d/1H8CizBnuerbOhXvqY9ePiTd_TsXdyCKt58LEho3BlxM/embed?start=false&loop=false&delayms=3000`}
         prevLesson={null}
         nextLesson=""
         videoSrc=""
-        slideLink={`https://docs.google.com/presentation/d/1DHNrBRLOOGrodgbjH5KAMgr_L24ts0Y9qQGjjq8qNDQ/edit?usp=sharing`}
+        slideLink={`https://docs.google.com/presentation/d/1H8CizBnuerbOhXvqY9ePiTd_TsXdyCKt58LEho3BlxM/edit?usp=sharing`}
         lessonDownload="./prepDownloads/prep_lesson6.zip"
       >
-        <Header as={"h3"}>Practice Problem Solutions:</Header>
+        
+      </PREPLesson>
+    </>
+  );
+}
+/*
+<Header as={"h3"}>Practice Problem Solutions:</Header>
         <CodeBlock
           code={`
           
@@ -169,9 +175,6 @@ def hailstone(x):
 
 `}
         /> 
-      </PREPLesson>
-    </>
-  );
-}
+        */
 
 export default PREPLesson6;
