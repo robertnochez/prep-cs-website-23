@@ -18,13 +18,7 @@ function PREPLesson6() {
         slideLink={`https://docs.google.com/presentation/d/1H8CizBnuerbOhXvqY9ePiTd_TsXdyCKt58LEho3BlxM/edit?usp=sharing`}
         lessonDownload="./prepDownloads/prep_lesson6.zip"
       >
-        
-      </PREPLesson>
-    </>
-  );
-}
-/*
-<Header as={"h3"}>Practice Problem Solutions:</Header>
+        <Header as={"h3"}>Practice Problem Solutions:</Header>
         <CodeBlock
           code={`
           
@@ -175,6 +169,13 @@ def hailstone(x):
 
 `}
         /> 
+
+        
+      </PREPLesson>
+    </>
+  );
+}
+/*
         */
 
 export default PREPLesson6;

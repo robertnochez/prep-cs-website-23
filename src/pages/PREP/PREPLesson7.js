@@ -7,16 +7,21 @@ import { Header } from "semantic-ui-react";
 function PREPLesson7() {
   return (
     <PREPLesson
-      header="Iterables Part 2"
+      header="Review and HOFs"
       description="Today's lesson continues on the topics of loops by introducing iterators and generators. "
-      slideSrc={`https://docs.google.com/presentation/d/1b1MCGHoPYvsqHGBZb6d6zMHUBdF6AY6vF_lAdZLq0IA/embed?start=false&loop=false&delayms=3000`}
+      slideSrc={`https://docs.google.com/presentation/d/1KhLUVm1d_jVHDKr80sV3BlTdKe4tP8UaI8PTT0NgWzM/embed?start=false&loop=false&delayms=3000`}
       prevLesson={null}
       nextLesson=""
-      slideLink={`https://docs.google.com/presentation/d/1b1MCGHoPYvsqHGBZb6d6zMHUBdF6AY6vF_lAdZLq0IA/edit?usp=sharing`}
+      slideLink={`https://docs.google.com/presentation/d/1KhLUVm1d_jVHDKr80sV3BlTdKe4tP8UaI8PTT0NgWzM/edit?usp=sharing`}
       lessonDownload="./prepDownloads/prep_lesson7.zip"
     >
     <Header as={"h3"}>Practice Problem Solutions:</Header>
-    <CodeBlock
+    
+    </PREPLesson>
+  );
+}
+/*
+<CodeBlock
           code={`
           
 ######################################################
@@ -125,9 +130,5 @@ def trickOrTreat(houses):
       yield list(houses.keys())[i] + " has given you a " + list(houses.values())[i] + "!"        
 
 `}
-        /> 
-    </PREPLesson>
-  );
-}
-
+        /> */
 export default PREPLesson7;

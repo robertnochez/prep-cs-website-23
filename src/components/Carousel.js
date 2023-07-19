@@ -31,6 +31,9 @@ class Carousel extends React.Component {
           <p>
           <Link to="/prepcs-lesson4">Lesson 4 Solutions</Link>
           </p>
+          <p>
+          <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
+          </p>
         </div>,
       ],
     };
@@ -211,10 +214,6 @@ class Carousel extends React.Component {
             Lesson 9 In Class: Example 2.2</a>
         </p>
 
-
-        <p>
-        <Link to="/prepcs-lesson6">Lesson 6 Solutions</Link>
-        </p>
         <p>
         <Link to="/prepcs-lesson7">Lesson 7 Solutions</Link>
         </p>
