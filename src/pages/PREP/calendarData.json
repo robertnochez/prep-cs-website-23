@@ -59,28 +59,28 @@
   },
   {
     "lessonNumber": "8",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson8",
-    "topic": "Linked Lists",
-    "folderLocation": "./prepDownloads/prep_lesson8.zip",
+    "topic": "More HOFs, Iterators, and Generators",
+    "folderLocation": "./prepDownloads/prep_lesson7.zip",
     "folderName": "lesson8",
-    "additionalInfo": "Classes and Linked Lists"
+    "additionalInfo": "HOFs, Helper functions, iterators, and generators"
   },
   {
     "lessonNumber": "9",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson9",
-    "topic": "Lambda & HOF",
-    "folderLocation": "./prepDownloads/Spotify.py",
+    "topic": "Lambdas & Classes",
+    "folderLocation": "./prepDownloads/prep_lesson10.zip",
     "folderName": "lesson9",
     "additionalInfo": "lambda and hof"
   },
   {
     "lessonNumber": "10",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson10",
-    "topic": "Recursion Practice",
-    "folderLocation": "./prepDownloads/prep_lesson10.zip",
+    "topic": "Linked Lists",
+    "folderLocation": "./prepDownloads/prep_lesson8.zip",
     "folderName": "lesson10",
     "additionalInfo": "Recursion review, practice problems."
   },
