@@ -9,7 +9,7 @@ function PREPLesson9() {
   return (
     <PREPLesson
       header="Lambdas and Classes"
-      description=""
+      description="Going over classes and lambdas."
       slideSrc={`https://docs.google.com/presentation/d/1wGiAR2Yfib-BBFBVXqkLc1kDAJA3ZL1rcW5fIF8p_Ts/embed?start=false&loop=false&delayms=3000`}
       prevLesson={null}
       nextLesson=""

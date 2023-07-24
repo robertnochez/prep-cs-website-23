@@ -8,9 +8,7 @@ function PREPLesson10() {
     return (
         <PREPLesson
           header="Linked Lists"
-          description="This is a day dedicated to extra recursion practice since practice is a very useful way to get a clear 
-          understanding of things. We will talk about the Recursive Leap of Faith and further review practice problems which 
-          require recursive solutions."
+          description="Linked lists, doubly linked lists, and circularly linked lists."
           slideSrc={`https://docs.google.com/presentation/d/1wGiAR2Yfib-BBFBVXqkLc1kDAJA3ZL1rcW5fIF8p_Ts/embed?start=false&loop=false&delayms=3000`}
           prevLesson={null}
           nextLesson=""

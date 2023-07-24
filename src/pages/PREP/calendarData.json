@@ -73,7 +73,7 @@
     "topic": "Lambdas & Classes",
     "folderLocation": "./prepDownloads/prep_lesson10.zip",
     "folderName": "lesson9",
-    "additionalInfo": "lambda and hof"
+    "additionalInfo": "Lambdas and Classes"
   },
   {
     "lessonNumber": "10",
@@ -82,7 +82,7 @@
     "topic": "Linked Lists",
     "folderLocation": "./prepDownloads/prep_lesson8.zip",
     "folderName": "lesson10",
-    "additionalInfo": "Recursion review, practice problems."
+    "additionalInfo": "Linked lists, doubly linked lists, and circularly linked lists."
   },
   {
     "lessonNumber": "11",
