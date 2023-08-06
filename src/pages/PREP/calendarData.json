@@ -86,7 +86,7 @@
   },
   {
     "lessonNumber": "11",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson11",
     "topic": "More Recursion Practice",
     "folderLocation": "./prepDownloads/prep_lesson11.zip",
@@ -95,7 +95,7 @@
   },
   {
     "lessonNumber": "12",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson12",
     "topic": "Trees",
     "folderLocation": "./prepDownloads/Tree.py",
@@ -104,7 +104,7 @@
   },
   {
     "lessonNumber": "13",
-    "disabled": true,
+    "disabled": false,
     "path": "/prepcs-lesson13",
     "topic": "Exam Practice and Wrap Up",
     "folderName": "None",

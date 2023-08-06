@@ -7,10 +7,10 @@ function PREPLesson13() {
         <PREPLesson
           header="Exam Practice and Wrap Up"
           description="We're done with content!! Thanks for joining us on this journey! Today we'll be taking a look at some exam practice questions."
-          slideSrc={`https://docs.google.com/presentation/d/1vqHd4WBpQQ6XdCRtXwv63qFnOy89ZNGX36aXHz8qSUA/embed?start=false&loop=false&delayms=3000`}
+          slideSrc={`https://docs.google.com/presentation/d/1LgzFL2yMRplmfZypzc07yfxZrSVfbTBE8DoJkveMTCg/embed?start=false&loop=false&delayms=3000`}
           prevLesson={null}
           nextLesson=""
-          slideLink="https://docs.google.com/presentation/d/1vqHd4WBpQQ6XdCRtXwv63qFnOy89ZNGX36aXHz8qSUA/edit?usp=sharing"
+          slideLink="https://docs.google.com/presentation/d/1LgzFL2yMRplmfZypzc07yfxZrSVfbTBE8DoJkveMTCg/edit?usp=sharing"
           videoSrc={``}
         />
     )
